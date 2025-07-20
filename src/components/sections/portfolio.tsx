@@ -189,7 +189,7 @@ export default function PortfolioSection() {
                    <Carousel
                     plugins={[
                       Autoplay({
-                        delay: 3000 + Math.floor(Math.random() * 1000),
+                        delay: 3000,
                         stopOnInteraction: true,
                       }),
                     ]}
