@@ -39,8 +39,16 @@ const projects: Project[] = [
     name: "Architectural Components & Building Products",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1556912173-35f35c448995?q=80&w=2070&auto=format&fit=crop",
-        hint: "building materials",
+        url: "https://www.xinyidoorindustry.com/uploads/image/20201110/20/fire-exit-door.jpg",
+        hint: "fire exit door",
+      },
+      {
+        url: "https://www.feneste.com/wp-content/uploads/feneste-products-windows-alu-opened.webp",
+        hint: "aluminum window",
+      },
+      {
+        url: "https://homefires.co.za/wp-content/uploads/2023/09/STOVE-BRUT-long-feet_01-922x1024.jpg",
+        hint: "modern stove",
       },
     ],
   },
