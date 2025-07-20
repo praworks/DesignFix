@@ -78,6 +78,10 @@ const projects: Project[] = [
       {
         url: "https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1020760_pe831986_s5.jpg?f=xl",
         hint: "sit stand desk",
+      },
+      {
+        url: "https://www.ikea.com/us/en/images/products/tonstad-sideboard-oak-veneer__1186256_pe898738_s5.jpg?f=xl",
+        hint: "oak sideboard",
       }
     ],
   },
