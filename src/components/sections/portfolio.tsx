@@ -43,7 +43,7 @@ export default function PortfolioSection() {
         <div className="mx-auto mt-12 grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {projects.map((project) => (
             <Card key={project.name} className="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
-                <div className="aspect-video w-full relative">
+                <div className="aspect-square w-full relative">
                     <Image
                         src={project.image}
                         alt={project.name}
