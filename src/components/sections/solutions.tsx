@@ -20,6 +20,12 @@ const useCases = [
     image: "https://placehold.co/600x400.png",
     hint: "wooden furniture",
   },
+  {
+    title: "Automated Fan Design",
+    description: "Generate and validate custom fan blade geometries and housing units based on performance requirements.",
+    image: "https://placehold.co/600x400.png",
+    hint: "industrial fan",
+  },
 ];
 
 export default function SolutionsSection() {
@@ -34,7 +40,7 @@ export default function SolutionsSection() {
             Explore how our custom automation tools have transformed design workflows for clients across various industries.
           </p>
         </div>
-        <div className="mx-auto mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mx-auto mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-2">
           {useCases.map((useCase) => (
             <Card key={useCase.title} className="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-0">
