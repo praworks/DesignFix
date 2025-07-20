@@ -77,10 +77,6 @@ const projects: Project[] = [
     name: "HVAC",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1617935492448-13c415259955?q=80&w=2070&auto=format&fit=crop",
-        hint: "air conditioner",
-      },
-      {
         url: "https://5.imimg.com/data5/QG/XJ/MY-9806775/gi-duct-500x500-1.jpg",
         hint: "air duct",
       },
