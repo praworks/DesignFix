@@ -64,10 +64,6 @@ const projects: Project[] = [
         hint: "modern sofa",
       },
       {
-        url: "https://t3.ftcdn.net/jpg/02/76/90/49/360_F_276904930_qenDFEcd7G3s59tZ5aCmtOTxidI2MruP.jpg",
-        hint: "wooden chair",
-      },
-      {
         url: "https://www.ikea.com/gb/en/images/products/eket-cabinet-w-2-doors-and-1-shelf-brown-walnut-effect__1373669_pe960035_s5.jpg",
         hint: "walnut cabinet",
       },
