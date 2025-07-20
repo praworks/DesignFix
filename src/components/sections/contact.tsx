@@ -46,17 +46,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="relative bg-primary text-primary-foreground pt-32 pb-12 md:pt-48 md:pb-24 lg:pt-56 lg:pb-32">
-       <div
-        className="absolute top-0 left-0 w-full h-48 md:h-64"
-        style={{
-          background: 'url(\'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="%23e0e0e0" fill-opacity="1" d="M0,192L48,176C96,160,192,128,288,133.3C384,139,480,181,576,181.3C672,181,768,139,864,117.3C960,96,1056,96,1152,117.3C1248,139,1344,181,1392,202.7L1440,224L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>\')',
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center bottom',
-          transform: 'scaleY(-1) translateY(1px)', 
-        }}
-      />
+    <section id="contact" className="bg-primary text-primary-foreground py-12 md:py-24 lg:py-32">
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="grid gap-12 lg:grid-cols-2">
             <div>
