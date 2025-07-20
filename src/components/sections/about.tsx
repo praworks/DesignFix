@@ -10,12 +10,12 @@ export default function AboutSection() {
     >
       <div className="absolute inset-0 bg-black/60 z-0"></div>
       <div className="container mx-auto px-4 md:px-6 relative z-10">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-6 text-white">
+        <div className="flex flex-col items-center gap-12">
+          <div className="space-y-6 text-white text-center">
             <h2 className="font-headline text-2xl font-bold tracking-tighter sm:text-3xl">
               Your Partner in Design Automation
             </h2>
-            <p className="max-w-[700px] text-gray-200 md:text-xl/relaxed">
+            <p className="max-w-[700px] mx-auto text-gray-200 md:text-xl/relaxed">
               With over 12 years of experience in design engineering, I
               specialize in CAD automation. My focus is on helping engineering
               teams streamline and scale their workflows. From intelligent parametric
@@ -24,7 +24,7 @@ export default function AboutSection() {
               delivery.
             </p>
           </div>
-           <div className="relative order-first lg:order-last">
+           <div className="relative w-full max-w-4xl">
              <div className="aspect-video w-full rounded-xl shadow-lg overflow-hidden">
                 <video
                     src="https://videos.autodesk.com/zencoder/content/dam/autodesk/www/solutions/design-automation/what-is-design-automation-video-1920x817.mp4"
