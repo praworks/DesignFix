@@ -158,7 +158,7 @@ export default function PortfolioSection() {
                               src={image.url}
                               alt={`${project.name} image ${index + 1}`}
                               fill
-                              className="object-cover"
+                              className="object-contain"
                               data-ai-hint={image.hint}
                             />
                           </div>
@@ -171,7 +171,7 @@ export default function PortfolioSection() {
                     src={project.images[0].url}
                     alt={project.name}
                     fill
-                    className="object-cover"
+                    className="object-contain"
                     data-ai-hint={project.images[0].hint}
                   />
                 )}
