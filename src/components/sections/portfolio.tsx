@@ -74,6 +74,10 @@ const projects: Project[] = [
       {
         url: "https://www.ikea.com/us/en/images/products/tonstad-sideboard-oak-veneer__1186256_pe898738_s5.jpg?f=xl",
         hint: "oak sideboard",
+      },
+       {
+        url: "https://5.imimg.com/data5/SELLER/Default/2022/10/WL/TS/BX/21411006/stainless-steel-waiting-chair.jpg",
+        hint: "waiting chair",
       }
     ],
   },
@@ -178,7 +182,7 @@ export default function PortfolioSection() {
             >
               <div className="aspect-square w-full relative group">
                 {project.images.length > 1 ? (
-                  <Carousel
+                   <Carousel
                     plugins={[
                       Autoplay({
                         delay: 3000 + Math.floor(Math.random() * 1000),
