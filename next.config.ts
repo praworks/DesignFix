@@ -261,6 +261,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.swc.co.nz',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.goengineer.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
