@@ -90,10 +90,6 @@ const projects: Project[] = [
     name: "Materials Handling Equipment",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1587293852726-70cdb1e858ce?q=80&w=2070&auto=format&fit=crop",
-        hint: "forklift",
-      },
-      {
         url: "https://img.uline.com/is/image/uline/H-1784?$ZoomHD$",
         hint: "pallet jack"
       }
