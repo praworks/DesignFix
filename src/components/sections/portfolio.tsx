@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const projects = [
   { name: "Cupboards", image: "https://www.ikea.com.hk/dairyfarm/hk/images/814/1281447_PE931867_S4.jpg" },
-  { name: "Agricultural trailers", image: "https://upload.wikimedia.org/wikipedia/commons/e/e0/Agricultural_harvester_trailer_at_Horsham_West_Sussex_England.jpg" },
+  { name: "Agricultural trailers", image: "https://www.otiumfarm.eu/images/cache/7f53182ea0dbf56f4e2fbcfbfb40122c_w900.jpg" },
   { name: "Pressure vessels", image: "https://upload.wikimedia.org/wikipedia/commons/e/e9/Pressure_vessel_%288466691960%29.jpg" },
   { name: "Wheelchairs", image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Wheelchair.jpg" },
   { name: "Solar heaters", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Solar_water_heater.jpg" },
