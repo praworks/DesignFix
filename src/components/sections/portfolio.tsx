@@ -20,8 +20,16 @@ const projects: Project[] = [
     name: "Machinery Manufacturing",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1567789884554-0b844b597180?q=80&w=2070&auto=format&fit=crop",
-        hint: "industrial machinery",
+        url: "https://epower-bd.com/wp-content/uploads/2016/04/Distribution-Transformer.jpg",
+        hint: "distribution transformer",
+      },
+      {
+        url: "https://www.scotech-electrical.com/uploads/202027946/1000-kva-three-phase-indoor-dry-type35302456817.jpg",
+        hint: "dry type transformer",
+      },
+       {
+        url: "https://5.imimg.com/data5/SB/OD/ZY/SELLER-3264624/three-phase-oil-cooled-transformer-500x500.jpg",
+        hint: "oil cooled transformer",
       },
     ],
   },
