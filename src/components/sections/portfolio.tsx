@@ -8,7 +8,7 @@ const projects = [
   { name: "Wheelchairs", image: "https://www.vermeiren.com/product/picture.nsf/O/2352FE778E4D750DC125838900396C90/$FILE/web_D200%20-%20B03%20-%20C86%20-%203Q%20view.jpg" },
   { name: "Solar heaters", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Solar_water_heater.jpg" },
   { name: "Medical trolleys", image: "https://upload.wikimedia.org/wikipedia/commons/2/27/Crash_Cart.jpg" },
-  { name: "Machine guards", image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Machine_guarding.jpg" },
+  { name: "Machine guards", image: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Machine_guarding.jpg/1024px-Machine_guarding.jpg" },
   { name: "Lockers", image: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Locker.JPG" },
   { name: "Lifting beams", image: "https://upload.wikimedia.org/wikipedia/commons/2/22/Albion_Mill%2C_Hazel_Grove_-_geograph.org.uk_-_377456.jpg" },
   { name: "Hydraulic cylinders", image: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Hydraulic_cylinder.JPG" },
