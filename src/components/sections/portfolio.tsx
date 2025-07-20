@@ -22,10 +22,6 @@ const projects: Project[] = [
     name: "Machinery Manufacturing",
     images: [
       {
-        url: "https://epower-bd.com/wp-content/uploads/2016/04/Distribution-Transformer.jpg",
-        hint: "distribution transformer",
-      },
-      {
         url: "https://www.scotech-electrical.com/uploads/202027946/1000-kva-three-phase-indoor-dry-type35302456817.jpg",
         hint: "dry type transformer",
       },
