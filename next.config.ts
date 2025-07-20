@@ -255,6 +255,12 @@ const nextConfig: NextConfig = {
         hostname: 'img.freepik.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.swc.co.nz',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
