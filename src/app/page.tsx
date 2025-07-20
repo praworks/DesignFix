@@ -31,8 +31,7 @@ export default function Home() {
                   src="https://videos.autodesk.com/zencoder/content/dam/autodesk/www/solutions/design-automation/what-is-design-automation-video-1920x817.mp4"
                   title="Design Automation"
                   controls
-                  muted
-                  loop
+                  preload="none"
                   className="w-full h-full object-cover"
                 ></video>
               </div>
