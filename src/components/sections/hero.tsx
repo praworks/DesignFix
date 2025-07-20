@@ -9,7 +9,7 @@ export default function HeroSection() {
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
               <h1 className="font-headline text-4xl font-bold tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl">
-                Automating Design. Accelerating Innovation.
+                Are slow CAD workflows limiting your project potential?
               </h1>
               <p className="max-w-[600px] text-muted-foreground md:text-xl">
                 Custom CAD Automation and Design Solutions for Next-Gen Product
