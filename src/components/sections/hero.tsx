@@ -3,7 +3,7 @@ import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
 
 export default function HeroSection() {
   return (
-    <section id="hero" className="bg-card">
+    <section id="hero" className="bg-background">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center gap-8 text-center">
           <div className="flex flex-col justify-center space-y-4">
@@ -38,7 +38,7 @@ export default function HeroSection() {
               </Button>
             </div>
           </div>
-          <div className="flex items-center justify-center w-full max-w-4xl">
+          <div className="w-full max-w-4xl rounded-xl shadow-lg border">
             <img
               src="https://placehold.co/600x400.png"
               alt="CAD Automation Visual"

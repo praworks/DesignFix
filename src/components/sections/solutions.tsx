@@ -47,8 +47,8 @@ export default function SolutionsSection() {
           </p>
         </div>
         <div className="mx-auto mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-          {useCases.map((useCase) => (
-            <Card key={useCase.title} className="overflow-hidden transition-transform hover:scale-105 hover:shadow-lg">
+          {useCases.slice(0, 3).map((useCase) => (
+            <Card key={useCase.title} className="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl">
               <CardHeader className="p-0">
                 <Image
                   src={useCase.image}

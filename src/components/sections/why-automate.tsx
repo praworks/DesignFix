@@ -1,14 +1,29 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import Image from "next/image";
 
 const benefits = [
-  "Drastically reduce time-to-quote and time-to-market",
-  "Eliminate repetitive manual design work",
-  "Improve product consistency and reduce costly errors",
-  "Enable mass customization and scalability",
-  "Free up engineers to focus on innovation",
+  {
+    title: "Faster Time-to-Market",
+    description: "Drastically reduce time-to-quote and delivery.",
+  },
+  {
+    title: "Eliminate Repetitive Work",
+    description: "Automate tedious tasks to free up your engineers.",
+  },
+  {
+    title: "Improve Quality",
+    description: "Minimize costly errors and improve product consistency.",
+  },
+  {
+    title: "Enable Mass Customization",
+    description: "Scale your production for custom orders effortlessly.",
+  },
+  {
+    title: "Boost Innovation",
+    description: "Free up your most valuable resources to focus on R&D.",
+  },
 ];
 
 export default function WhyAutomateSection() {
@@ -23,16 +38,21 @@ export default function WhyAutomateSection() {
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
               Investing in CAD automation isn&apos;t just about saving time. It&apos;s about transforming your entire product development lifecycle to be faster, more reliable, and more innovative.
             </p>
-            <ul className="grid gap-4">
+            <div className="grid gap-4 sm:grid-cols-2">
               {benefits.map((benefit) => (
-                <li key={benefit} className="flex items-start gap-3">
-                  <div className="mt-1 flex h-6 w-6 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                    <Check className="h-4 w-4" />
-                  </div>
-                  <span className="flex-1 text-lg">{benefit}</span>
-                </li>
+                 <Card key={benefit.title}>
+                  <CardHeader className="flex flex-row items-center gap-4 pb-2">
+                     <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                       <Check className="h-5 w-5" />
+                     </div>
+                     <CardTitle className="font-headline text-lg">{benefit.title}</CardTitle>
+                   </CardHeader>
+                   <CardContent>
+                     <p className="text-muted-foreground">{benefit.description}</p>
+                   </CardContent>
+                 </Card>
               ))}
-            </ul>
+            </div>
           </div>
           <div className="flex items-center justify-center">
              <Dialog>

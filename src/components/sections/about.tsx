@@ -91,8 +91,8 @@ export default function AboutSection() {
           <div className="flex flex-col gap-4">
              <h3 className="font-headline text-xl font-bold tracking-tighter">Solutions I Offer to Save Design Time</h3>
             <div className="grid gap-4">
-              {solutions.slice(0, 3).map((solution) => (
-                <Card key={solution.title}>
+              {solutions.slice(3, 6).map((solution) => (
+                <Card key={solution.title} className="bg-card">
                   <CardHeader className="flex flex-row items-center gap-4">
                     {solution.icon}
                     <CardTitle className="font-headline text-lg">{solution.title}</CardTitle>
