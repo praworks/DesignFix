@@ -96,10 +96,6 @@ const projects: Project[] = [
       {
         url: "https://img.uline.com/is/image/uline/H-1784?$ZoomHD$",
         hint: "pallet jack"
-      },
-      {
-        url: "https://www.rapidracking.com/img/S/GRP/ST/AIG62840417.jpg",
-        hint: "warehouse racking"
       }
     ],
   },
