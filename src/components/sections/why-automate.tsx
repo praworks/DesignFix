@@ -20,17 +20,13 @@ const benefits = [
     title: "Enable Mass Customization",
     description: "Scale your production for custom orders effortlessly.",
   },
-  {
-    title: "Boost Innovation",
-    description: "Free up your most valuable resources to focus on R&D.",
-  },
 ];
 
 export default function WhyAutomateSection() {
   return (
     <section id="why-automate" className="bg-card">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
+        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-6">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               Why Automate Your CAD Design Process?
@@ -40,7 +36,7 @@ export default function WhyAutomateSection() {
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
               {benefits.map((benefit) => (
-                 <Card key={benefit.title}>
+                 <Card key={benefit.title} className="bg-background">
                   <CardHeader className="flex flex-row items-center gap-4 pb-2">
                      <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
                        <Check className="h-5 w-5" />
