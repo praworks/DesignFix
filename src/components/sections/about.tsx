@@ -64,7 +64,7 @@ export default function AboutSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               About DesignFix
             </h2>
             <p className="mt-4 max-w-[700px] text-muted-foreground md:text-xl/relaxed">
@@ -77,7 +77,7 @@ export default function AboutSection() {
               delivery.
             </p>
             <div className="mt-8">
-              <h3 className="font-headline text-2xl font-bold tracking-tighter">Key Services</h3>
+              <h3 className="font-headline text-xl font-bold tracking-tighter">Key Services</h3>
               <ul className="mt-4 grid grid-cols-1 sm:grid-cols-2 gap-2">
                 {services.map((service) => (
                   <li key={service} className="flex items-center gap-2">
@@ -89,13 +89,13 @@ export default function AboutSection() {
             </div>
           </div>
           <div className="flex flex-col gap-4">
-             <h3 className="font-headline text-2xl font-bold tracking-tighter">Solutions I Offer to Save Design Time</h3>
+             <h3 className="font-headline text-xl font-bold tracking-tighter">Solutions I Offer to Save Design Time</h3>
             <div className="grid gap-4">
               {solutions.slice(0, 3).map((solution) => (
                 <Card key={solution.title}>
                   <CardHeader className="flex flex-row items-center gap-4">
                     {solution.icon}
-                    <CardTitle className="font-headline text-xl">{solution.title}</CardTitle>
+                    <CardTitle className="font-headline text-lg">{solution.title}</CardTitle>
                   </CardHeader>
                   <CardContent>
                     <p className="text-muted-foreground">{solution.description}</p>

@@ -17,7 +17,7 @@ export default function WhyAutomateSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-6">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               Why Automate Your CAD Design Process?
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">

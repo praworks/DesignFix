@@ -50,7 +50,7 @@ export default function ContactSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid gap-12 lg:grid-cols-2">
             <div>
-                <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Ready to Innovate?</h2>
+                <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Innovate?</h2>
                 <p className="mt-4 max-w-[600px] text-muted-foreground md:text-xl/relaxed">
                     Let&apos;s discuss how we can automate your design process, save you time, and accelerate your time-to-market. Fill out the form or reach out directly.
                 </p>
@@ -61,7 +61,7 @@ export default function ContactSection() {
             </div>
             <Card>
                 <CardHeader>
-                    <CardTitle className="font-headline text-2xl">Contact Us</CardTitle>
+                    <CardTitle className="font-headline text-xl">Contact Us</CardTitle>
                     <CardDescription>Fill out the form below to start the conversation.</CardDescription>
                 </CardHeader>
                 <CardContent>
