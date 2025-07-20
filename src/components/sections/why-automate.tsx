@@ -1,7 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Check } from "lucide-react";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
-import Image from "next/image";
 
 const benefits = [
   {
@@ -28,7 +27,7 @@ export default function WhyAutomateSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
           <div className="space-y-6">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+            <h2 className="font-headline text-2xl font-bold tracking-tighter sm:text-3xl">
               Why Automate Your CAD Design Process?
             </h2>
             <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
@@ -36,7 +35,7 @@ export default function WhyAutomateSection() {
             </p>
             <div className="grid gap-4 sm:grid-cols-2">
               {benefits.map((benefit) => (
-                 <Card key={benefit.title} className="bg-background">
+                 <Card key={benefit.title} className="bg-background shadow-md rounded-lg hover:shadow-lg transition-shadow">
                   <CardHeader className="flex flex-row items-center gap-4 pb-2">
                      <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
                        <Check className="h-5 w-5" />
@@ -54,15 +53,17 @@ export default function WhyAutomateSection() {
              <Dialog>
                 <DialogTrigger asChild>
                     <div className="relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105">
-                        <Image
-                            src="https://placehold.co/600x400.png"
-                            alt="Why CAD Automation Matters Video Thumbnail"
-                            data-ai-hint="CAD automation gears"
-                            width={600}
-                            height={400}
-                            className="object-cover"
-                        />
-                        <div className="absolute inset-0 flex items-center justify-center bg-black/40">
+                        <div className="aspect-video w-full max-w-lg">
+                            <iframe
+                                src="https://www.youtube.com/embed/KD336dxw4-A"
+                                title="Why CAD Automation Matters"
+                                frameBorder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen
+                                className="w-full h-full rounded-lg"
+                            ></iframe>
+                        </div>
+                        <div className="absolute inset-0 flex items-center justify-center bg-black/20">
                             <PlayIcon className="h-20 w-20 text-white" />
                         </div>
                     </div>

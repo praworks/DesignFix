@@ -1,5 +1,4 @@
 import { CheckCircle } from "lucide-react";
-import Image from "next/image";
 
 const services = [
   "CAD design solutions",
@@ -17,17 +16,19 @@ export default function AboutSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
            <div className="relative order-last lg:order-first">
-            <Image
-                src="https://placehold.co/600x400.png"
-                alt="About DesignFix"
-                data-ai-hint="engineering team collaboration"
-                width={600}
-                height={400}
-                className="w-full rounded-xl shadow-lg"
-            />
+             <div className="aspect-video w-full rounded-xl shadow-lg overflow-hidden">
+                <iframe
+                    src="https://www.youtube.com/embed/S2aC_84AnA4"
+                    title="DriveWorks Solo Quick Start"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                ></iframe>
+              </div>
            </div>
           <div className="space-y-6">
-            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+            <h2 className="font-headline text-2xl font-bold tracking-tighter sm:text-3xl">
               Your Partner in Design Automation
             </h2>
             <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed">
