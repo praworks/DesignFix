@@ -17,6 +17,7 @@ export default function WhatIsDesignAutomationSection() {
               dimensions, formulas, and option-dependent features in a master
               template, the system scales parts, adds or suppresses components,
               renames files, and runs checks in seconds—transforming what was
+
               once time-consuming “click work” into a push-button routine.
             </p>
              <p className="text-muted-foreground md:text-lg/relaxed">
