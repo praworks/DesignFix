@@ -157,6 +157,10 @@ const projects: Project[] = [
         url: "https://s.alicdn.com/@sc04/kf/He9c5b85d2e0f441da9f9a048ab2ff420W/Names-Agricultural-Tools.png_300x300.jpg",
         hint: "agricultural tools",
       },
+      {
+        url: "https://t3.ftcdn.net/jpg/07/55/22/46/360_F_755224603_AiribVZ7cG1zYrQNQhXEZrYqe83s5nbc.jpg",
+        hint: "agricultural tools",
+      }
     ],
   },
 ];
