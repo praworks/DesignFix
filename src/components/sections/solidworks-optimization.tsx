@@ -14,14 +14,14 @@ const optimizations = [
     title: "Large Assembly Management",
     description: "Implement strategies like lightweight modes, configurations, and SpeedPak to make working with large assemblies seamless and efficient.",
     icon: Feather,
-    image: "https://images.unsplash.com/photo-1620325867510-537903d38c11?q=80&w=1972&auto=format&fit=crop",
+    image: "https://www.tflex.com/img/ccimages/bormash/1.jpg",
     hint: "engine assembly",
   },
   {
     title: "Best Practice & Template Creation",
     description: "We establish standardized templates and best-practice modeling techniques to ensure consistency and improve model rebuild times across your team.",
     icon: BookCheck,
-    image: "https://images.unsplash.com/photo-1581092916376-29a53123863a?q=80&w=2070&auto=format&fit=crop",
+    image: "https://cad.onshape.com/help/Content/Resources/Images/template-2.png",
     hint: "technical manual",
   },
 ];
