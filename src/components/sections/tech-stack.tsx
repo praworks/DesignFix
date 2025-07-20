@@ -18,7 +18,7 @@ const tech = [
   },
   { 
     name: "Autodesk Inventor", 
-    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Autodesk_Inventor_logo.svg/1024px-Autodesk_Inventor_logo.svg.png",
+    logo: "https://cadtalk.com/wp-content/uploads/2024/10/Autodesk-Inventor-Logo-Vector.svg-.png",
     description: "3D Mechanical Design" 
   },
 ];
