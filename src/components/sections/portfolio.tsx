@@ -131,6 +131,10 @@ const projects: Project[] = [
       {
         url: "https://www.ikea.com/us/en/images/products/billy-bookcase-brown-walnut-effect__1097082_pe864710_s5.jpg?f=xl",
         hint: "bookcase walnut",
+      },
+      {
+        url: "https://www.alpha.lk/wp-content/uploads/2020/12/STD-Workman-Locker-6-Units-324x324.jpg",
+        hint: "storage locker"
       }
     ],
   },

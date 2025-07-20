@@ -201,6 +201,12 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.salla.sa',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.alpha.lk',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
