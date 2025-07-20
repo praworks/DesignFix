@@ -5,7 +5,7 @@ const projects = [
   { name: "Cupboards", image: "https://www.ikea.com.hk/dairyfarm/hk/images/814/1281447_PE931867_S4.jpg" },
   { name: "Agricultural trailers", image: "https://www.otiumfarm.eu/images/cache/7f53182ea0dbf56f4e2fbcfbfb40122c_w900.jpg" },
   { name: "Pressure vessels", image: "https://t3.ftcdn.net/jpg/02/68/23/64/240_F_268236478_TwssYoOURFbt1pICG5NlcWkXT74gjzp3.jpg" },
-  { name: "Wheelchairs", image: "https://upload.wikimedia.org/wikipedia/commons/9/9a/Wheelchair.jpg" },
+  { name: "Wheelchairs", image: "https://www.vermeiren.com/product/picture.nsf/O/2352FE778E4D750DC125838900396C90/$FILE/web_D200%20-%20B03%20-%20C86%20-%203Q%20view.jpg" },
   { name: "Solar heaters", image: "https://upload.wikimedia.org/wikipedia/commons/a/a7/Solar_water_heater.jpg" },
   { name: "Medical trolleys", image: "https://upload.wikimedia.org/wikipedia/commons/2/27/Crash_Cart.jpg" },
   { name: "Machine guards", image: "https://upload.wikimedia.org/wikipedia/commons/a/a2/Machine_guarding.jpg" },
