@@ -17,7 +17,7 @@ export default function AboutSection() {
             </h2>
           </div>
 
-          <div className="max-w-5xl w-full bg-card/10 backdrop-blur-sm p-8 md:p-12 border border-white/10 shadow-lg rounded-lg">
+          <div className="max-w-5xl w-full p-8 md:p-12">
             <div className="text-gray-200 text-base/7 md:columns-3 gap-8 space-y-6">
               <p>
                 Hi, my name is Prashanth. I began my career as a traditional CAD designer, spending long hours refining drawings in AutoCAD and SOLIDWORKS—meticulous work where every repetitive click felt like time stolen from real innovation. Determined to reclaim that time, I set out to find better ways to design.
