@@ -1,6 +1,6 @@
 import type {Metadata} from 'next';
 import './globals.css';
-import { Inter, Space_Grotesk } from 'next/font/google'
+import { Inter, BioRhyme } from 'next/font/google'
 import { cn } from '@/lib/utils';
 import { Toaster } from "@/components/ui/toaster"
 import { ThemeProvider } from '@/components/theme-provider';
@@ -10,14 +10,15 @@ const fontBody = Inter({
   variable: '--font-body',
 })
 
-const fontHeadline = Space_Grotesk({
+const fontHeadline = BioRhyme({
   subsets: ['latin'],
   variable: '--font-headline',
+  weight: ['400', '700'],
 })
 
 
 export const metadata: Metadata = {
-  title: 'DesignFlow AI - Automating Design. Accelerating Innovation.',
+  title: 'DesignFix - Automating Design. Accelerating Innovation.',
   description: 'Custom CAD Automation and Design Solutions for Next-Gen Product Development',
 };
 
@@ -31,7 +32,7 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=BioRhyme:wght@400;700&display=swap" rel="stylesheet" />
       </head>
       <body className={cn("font-body antialiased", fontBody.variable, fontHeadline.variable)}>
         <ThemeProvider

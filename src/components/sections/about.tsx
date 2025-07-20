@@ -65,7 +65,7 @@ export default function AboutSection() {
         <div className="grid gap-12 lg:grid-cols-2">
           <div>
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-              About DesignFlow AI
+              About DesignFix
             </h2>
             <p className="mt-4 max-w-[700px] text-muted-foreground md:text-xl/relaxed">
               With over 12 years of experience in design engineering firms, I
