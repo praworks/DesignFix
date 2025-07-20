@@ -150,10 +150,6 @@ const projects: Project[] = [
 ];
 
 export default function PortfolioSection() {
-  const plugin = React.useRef(
-    Autoplay({ delay: 3000, stopOnInteraction: true })
-  );
-
   return (
     <section id="industries" className="bg-card">
       <div className="container mx-auto px-4 md:px-6">
@@ -175,10 +171,13 @@ export default function PortfolioSection() {
               <div className="aspect-square w-full relative group">
                 {project.images.length > 1 ? (
                   <Carousel
-                    plugins={[plugin.current]}
+                    plugins={[
+                      Autoplay({
+                        delay: 3000 + Math.floor(Math.random() * 1000),
+                        stopOnInteraction: true,
+                      }),
+                    ]}
                     className="w-full h-full"
-                    onMouseEnter={plugin.current.stop}
-                    onMouseLeave={plugin.current.reset}
                   >
                     <CarouselContent>
                       {project.images.map((image, index) => (
