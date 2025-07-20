@@ -249,6 +249,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.nilkamaledge.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'img.freepik.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

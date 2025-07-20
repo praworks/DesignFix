@@ -47,9 +47,9 @@ const projects: Project[] = [
         hint: "aluminum window",
       },
       {
-        url: "https://homefires.co.za/wp-content/uploads/2023/09/STOVE-BRUT-long-feet_01-922x1024.jpg",
-        hint: "modern stove",
-      },
+        url: "https://img.freepik.com/premium-photo/kitchen-furniture-kitchen-equipment-white-background-3d-rendering_578102-2738.jpg",
+        hint: "kitchen furniture",
+      }
     ],
   },
   {
