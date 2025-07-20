@@ -13,7 +13,7 @@ const tech = [
   },
   { 
     name: "PTC Creo", 
-    logo: "https://www.ptc.com/-/media/Images/ptc-logos/ptc-creo-logo-positive-rgb.png", 
+    logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/PTC_Creo_logo.svg/1200px-PTC_Creo_logo.svg.png", 
     description: "Parametric CAD" 
   },
   { 
