@@ -114,6 +114,14 @@ const projects: Project[] = [
         url: "https://www.prioritybicycles.com/cdn/shop/files/600_hero_May2024_1of1.jpg?v=1716221309&width=1500",
         hint: "bicycle",
       },
+      {
+        url: "https://jeewakapharmacy.lk/wp-content/uploads/2020/12/Wheel-Chair-With-Commode-YJ-8100-C.jpg",
+        hint: "commode wheelchair"
+      },
+      {
+        url: "https://www.australiahoverboards.com.au/wp-content/uploads/2023/08/Image1_800x.webp",
+        hint: "hoverboard"
+      }
     ],
   },
   {
@@ -143,24 +151,6 @@ const projects: Project[] = [
       },
     ],
   },
-  {
-    name: "Medical & Mobility Equipment",
-    images: [
-      {
-        url: "https://jeewakapharmacy.lk/wp-content/uploads/2020/12/Wheel-Chair-With-Commode-YJ-8100-C.jpg",
-        hint: "commode wheelchair"
-      }
-    ]
-  },
-  {
-    name: "Personal Mobility",
-    images: [
-      {
-        url: "https://www.australiahoverboards.com.au/wp-content/uploads/2023/08/Image1_800x.webp",
-        hint: "hoverboard"
-      }
-    ]
-  }
 ];
 
 export default function PortfolioSection() {
