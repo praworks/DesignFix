@@ -15,9 +15,8 @@ export default function AboutSection() {
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               About the Developer
             </h2>
-            <div className="space-y-6 text-left text-gray-200 md:text-lg/relaxed">
-              <h3 className="font-headline text-2xl font-semibold text-center">From CAD Designer to Automation Engineer – My Journey</h3>
-              <p>I began my career as a traditional CAD designer, spending long hours refining drawings in AutoCAD and SOLIDWORKS. The work was meticulous—but every repetitive click felt like time stolen from real innovation. Determined to reclaim that time, I searched for better ways to design.</p>
+            <div className="space-y-6 text-left text-gray-200 text-base/relaxed">
+              <p>Hi, my name is Prashanth. I began my career as a traditional CAD designer, spending long hours refining drawings in AutoCAD and SOLIDWORKS. The work was meticulous—but every repetitive click felt like time stolen from real innovation. Determined to reclaim that time, I searched for better ways to design.</p>
               
               <h4 className="font-headline text-xl font-semibold pt-4">Stage 1 – Discovering Automation</h4>
               <p>My first breakthrough was an Excel-driven AutoCAD macro: block attributes filled automatically, sheets generated in seconds. Watching AutoCAD build drawings from a spreadsheet proved that automation could turn tedious tasks into instant results.</p>
