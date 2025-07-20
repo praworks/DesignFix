@@ -19,20 +19,20 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: "Machinery Manufacturing",
+    name: "Transportation",
     images: [
-      {
-        url: "https://www.scotech-electrical.com/uploads/202027946/1000-kva-three-phase-indoor-dry-type35302456817.jpg",
-        hint: "dry type transformer",
+       {
+        url: "https://www.prioritybicycles.com/cdn/shop/files/600_hero_May2024_1of1.jpg?v=1716221309&width=1500",
+        hint: "bicycle",
       },
       {
-        url: "https://sc04.alicdn.com/kf/H1200f2c274e9466d817cd3f5d9860a8cL.png",
-        hint: "submersible pump",
+        url: "https://jeewakapharmacy.lk/wp-content/uploads/2020/12/Wheel-Chair-With-Commode-YJ-8100-C.jpg",
+        hint: "commode wheelchair"
       },
       {
-        url: "https://cdn.salla.sa/rKAOO/pTcxXZpKKFsGxq9iRuX24v9tu8S5cUr4uRexEFQt.jpg",
-        hint: "water pump",
-      },
+        url: "https://www.australiahoverboards.com.au/wp-content/uploads/2023/08/Image1_800x.webp",
+        hint: "hoverboard"
+      }
     ],
   },
   {
@@ -108,20 +108,20 @@ const projects: Project[] = [
     ],
   },
   {
-    name: "Transportation",
+    name: "Machinery Manufacturing",
     images: [
-       {
-        url: "https://www.prioritybicycles.com/cdn/shop/files/600_hero_May2024_1of1.jpg?v=1716221309&width=1500",
-        hint: "bicycle",
+      {
+        url: "https://www.scotech-electrical.com/uploads/202027946/1000-kva-three-phase-indoor-dry-type35302456817.jpg",
+        hint: "dry type transformer",
       },
       {
-        url: "https://jeewakapharmacy.lk/wp-content/uploads/2020/12/Wheel-Chair-With-Commode-YJ-8100-C.jpg",
-        hint: "commode wheelchair"
+        url: "https://sc04.alicdn.com/kf/H1200f2c274e9466d817cd3f5d9860a8cL.png",
+        hint: "submersible pump",
       },
       {
-        url: "https://www.australiahoverboards.com.au/wp-content/uploads/2023/08/Image1_800x.webp",
-        hint: "hoverboard"
-      }
+        url: "https://cdn.salla.sa/rKAOO/pTcxXZpKKFsGxq9iRuX24v9tu8S5cUr4uRexEFQt.jpg",
+        hint: "water pump",
+      },
     ],
   },
   {
