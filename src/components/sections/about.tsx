@@ -24,19 +24,6 @@ export default function AboutSection() {
               delivery.
             </p>
           </div>
-           <div className="relative w-full max-w-4xl">
-             <div className="aspect-video w-full rounded-xl shadow-lg overflow-hidden">
-                <video
-                    src="https://videos.autodesk.com/zencoder/content/dam/autodesk/www/solutions/design-automation/what-is-design-automation-video-1920x817.mp4"
-                    title="Design Automation"
-                    controls
-                    autoPlay
-                    muted
-                    loop
-                    className="w-full h-full object-cover"
-                ></video>
-              </div>
-           </div>
         </div>
       </div>
     </section>
