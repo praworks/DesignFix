@@ -4,24 +4,11 @@ import { Button } from "@/components/ui/button";
 import { ChevronDown, Menu } from "lucide-react";
 import Logo from "./logo";
 import { ThemeToggle } from "./theme-toggle";
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu";
 
 export default function Header() {
   const navLinks = [
     { name: "About", href: "#about" },
-    {
-      name: "Solutions",
-      dropdown: [
-        { name: "Advanced CAD Automation", href: "#solutions" },
-        { name: "Reverse Engineering", href: "#reverse-engineering" },
-        { name: "SolidWorks Optimization", href: "#solidworks-optimization" },
-      ],
-    },
+    { name: "Solutions", href: "#solutions" },
     { name: "Contact", href: "#contact" },
   ];
 
@@ -36,31 +23,15 @@ export default function Header() {
             </span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
-            {navLinks.map((link) =>
-              link.dropdown ? (
-                <DropdownMenu key={link.name}>
-                  <DropdownMenuTrigger className="flex items-center gap-1 transition-colors hover:text-foreground/80 text-foreground/60 focus:outline-none">
-                    {link.name}
-                    <ChevronDown className="h-4 w-4" />
-                  </DropdownMenuTrigger>
-                  <DropdownMenuContent>
-                    {link.dropdown.map((item) => (
-                      <DropdownMenuItem key={item.name} asChild>
-                        <Link href={item.href}>{item.name}</Link>
-                      </DropdownMenuItem>
-                    ))}
-                  </DropdownMenuContent>
-                </DropdownMenu>
-              ) : (
-                <Link
-                  key={link.name}
-                  href={link.href!}
-                  className="transition-colors hover:text-foreground/80 text-foreground/60"
-                >
-                  {link.name}
-                </Link>
-              )
-            )}
+            {navLinks.map((link) => (
+              <Link
+                key={link.name}
+                href={link.href}
+                className="transition-colors hover:text-foreground/80 text-foreground/60"
+              >
+                {link.name}
+              </Link>
+            ))}
           </nav>
         </div>
         <Sheet>
@@ -80,28 +51,15 @@ export default function Header() {
               <span className="font-bold">DesignFix</span>
             </Link>
             <div className="mt-6 flex flex-col space-y-4">
-              {navLinks.map((link) =>
-                link.dropdown ? (
-                   <div key={link.name} className="text-lg font-medium text-foreground/80">
-                    {link.name}
-                    <div className="mt-2 flex flex-col space-y-2 pl-4">
-                      {link.dropdown.map((item) => (
-                        <Link key={item.name} href={item.href} className="text-base text-foreground/60 hover:text-foreground">
-                          {item.name}
-                        </Link>
-                      ))}
-                    </div>
-                  </div>
-                ) : (
-                  <Link
-                    key={link.name}
-                    href={link.href!}
-                    className="text-lg font-medium text-foreground/80 hover:text-foreground"
-                  >
-                    {link.name}
-                  </Link>
-                )
-              )}
+              {navLinks.map((link) => (
+                <Link
+                  key={link.name}
+                  href={link.href}
+                  className="text-lg font-medium text-foreground/80 hover:text-foreground"
+                >
+                  {link.name}
+                </Link>
+              ))}
             </div>
           </SheetContent>
         </Sheet>
