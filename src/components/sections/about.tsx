@@ -15,7 +15,7 @@ export default function AboutSection() {
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               About the Developer
             </h2>
-            <div className="space-y-4 text-left text-gray-200 text-base/relaxed">
+            <div className="space-y-2 text-left text-gray-200 text-base/6">
               <p>Hi, my name is Prashanth. I began my career as a traditional CAD designer, spending long hours refining drawings in AutoCAD and SOLIDWORKS. The work was meticulous—but every repetitive click felt like time stolen from real innovation. Determined to reclaim that time, I searched for better ways to design.</p>
               
               <h4 className="font-headline text-xl font-semibold pt-2">Stage 1 – Discovering Automation</h4>
