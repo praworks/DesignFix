@@ -9,6 +9,7 @@ import ContactSection from "@/components/sections/contact";
 import Footer from "@/components/footer";
 import ReverseEngineeringSection from "@/components/sections/reverse-engineering";
 import SolidworksOptimizationSection from "@/components/sections/solidworks-optimization";
+import WhatIsDesignAutomationSection from "@/components/sections/what-is-design-automation";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <HeroSection />
+        <WhatIsDesignAutomationSection />
         <WhyAutomateSection />
         <SolutionsSection />
         <ReverseEngineeringSection />
