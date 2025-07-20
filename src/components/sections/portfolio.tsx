@@ -7,6 +7,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from "@/components/ui/carousel";
 import Autoplay from "embla-carousel-autoplay";
 
@@ -150,7 +152,7 @@ export default function PortfolioSection() {
               key={project.name}
               className="overflow-hidden transition-transform duration-300 ease-in-out hover:scale-105 hover:shadow-xl"
             >
-              <div className="aspect-square w-full relative">
+              <div className="aspect-square w-full relative group">
                 {project.images.length > 1 ? (
                   <Carousel
                     plugins={[plugin.current]}
@@ -173,6 +175,8 @@ export default function PortfolioSection() {
                         </CarouselItem>
                       ))}
                     </CarouselContent>
+                    <CarouselPrevious className="absolute top-1/2 left-4 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <CarouselNext className="absolute top-1/2 right-4 -translate-y-1/2 opacity-0 group-hover:opacity-100 transition-opacity" />
                   </Carousel>
                 ) : (
                   <Image
