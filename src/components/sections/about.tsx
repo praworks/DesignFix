@@ -9,8 +9,8 @@ export default function AboutSection() {
       style={{backgroundImage: "url('https://damassets.autodesk.net/content/dam/autodesk/www/solutions/design-automation/what-is-design-automation-video-thumb-1172x660.jpg')"}}
     >
       <div className="absolute inset-0 bg-black/70 z-0"></div>
-      <div className="container mx-auto px-4 md:px-6 py-12 md:py-24 relative z-10">
-        <div className="flex flex-col items-center gap-8">
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
+        <div className="flex flex-col items-center gap-8 py-12 md:py-24">
           <div className="space-y-4 text-white text-center max-w-4xl">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               About the Developer
