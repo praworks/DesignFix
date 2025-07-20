@@ -4,7 +4,7 @@ import Image from "next/image";
 const projects = [
   { name: "Machinery Manufacturing", image: "https://images.unsplash.com/photo-1567789884554-0b844b597180?q=80&w=2070&auto=format&fit=crop", hint: "industrial machinery" },
   { name: "Architectural Components & Building Products", image: "https://images.unsplash.com/photo-1556912173-35f35c448995?q=80&w=2070&auto=format&fit=crop", hint: "building materials" },
-  { name: "Furniture Manufacturing", image: "https://images.unsplash.com/photo-1596205252519-2947115b914c?q=80&w=2070&auto=format&fit=crop", hint: "modern furniture" },
+  { name: "Furniture Manufacturing", image: "https://www.ikea.com.hk/dairy-farm/hk/images/409/0840909_PE683935_S5.jpg", hint: "ikea cupboard" },
   { name: "HVAC", image: "https://images.unsplash.com/photo-1617935492448-13c415259955?q=80&w=2070&auto=format&fit=crop", hint: "air conditioner" },
   { name: "Materials Handling Equipment", image: "https://images.unsplash.com/photo-1587293852726-70cdb1e858ce?q=80&w=2070&auto=format&fit=crop", hint: "forklift" },
   { name: "Transportation", image: "https://images.unsplash.com/photo-1590212151009-3d1983533824?q=80&w=2069&auto=format&fit=crop", hint: "truck trailer" },
