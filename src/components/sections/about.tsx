@@ -1,56 +1,5 @@
 
-import { HardHat, Rocket, Code, Settings, Briefcase, GraduationCap, Building } from "lucide-react";
 import React from "react";
-
-const timelineEvents = [
-  {
-    icon: HardHat,
-    title: "Stage 1 – Discovering Automation",
-    description:
-      "My first breakthrough was an Excel-driven AutoCAD macro: block attributes filled automatically, sheets generated in seconds. Watching AutoCAD build drawings from a spreadsheet proved that automation could turn tedious tasks into instant results.",
-  },
-  {
-    icon: Code,
-    title: "Stage 2 – Diving Deeper into SOLIDWORKS",
-    description:
-      "I earned four Dassault Systèmes credentials—CSWP, CSWPA-WD, CSWPA-SM, and CSWPA-DT—while teaching myself VBA, C#, and .NET. Writing macros that assembled complex models at a single keystroke showed me that code could be as powerful a design tool as any sketch line.",
-  },
-  {
-    icon: Building,
-    title: "Stage 3 – Automating Key Projects for Industry Employers",
-    description:
-      "At several engineering firms, I spearheaded automation initiatives that became game-changers:",
-    points: [
-      "End-to-End PDM Automation – linked SOLIDWORKS PDM with ERP and SQL databases, cutting release time by 60%.",
-      "DriveWorks-Powered Configurators – created sales-to-production workflows that generate models, drawings, BOMs, and quotes in minutes.",
-      "Custom Taskpane Add-ins – collapsed multi-step rituals into single-click commands, saving thousands of engineering hours each year.",
-    ],
-    outro: "These projects proved automation’s business value—streamlining operations, boosting accuracy, and multiplying team capacity.",
-  },
-  {
-    icon: GraduationCap,
-    title: "Stage 4 – Professional Automation Engineering",
-    description:
-      "Hands-on training in DriveWorks Solo (Bengaluru) refined my rule-based skills, letting product logic come alive on-screen. Armed with a Bachelor’s in Information Technology from the University of Moratuwa, I combined mechanical insight with software expertise and stepped fully into the role of Automation Engineer.",
-  },
-  {
-    icon: Briefcase,
-    title: "Stage 5 – Launching My Own CAD Automation Consultancy",
-    description:
-      "After witnessing automation’s transformative impact, I founded my own consultancy to help organisations unlock their hidden potential. Now I partner with engineering teams to:",
-    points: [
-      "Identify workflow bottlenecks and automation opportunities",
-      "Design and deploy bespoke CAD solutions that accelerate delivery and raise quality",
-      "Mentor in-house engineers so they can sustain and expand their automation roadmap",
-    ],
-  },
-  {
-    icon: Rocket,
-    title: "Mission",
-    description:
-      "Transform every repetitive click into a springboard for innovation—letting automation write the mundane chapters so engineers can author the breakthroughs. And share that knowledge widely, empowering every team to master better software and work smarter.",
-  },
-];
 
 export default function AboutSection() {
   return (
@@ -61,42 +10,33 @@ export default function AboutSection() {
     >
       <div className="absolute inset-0 bg-black/70 z-0"></div>
       <div className="container mx-auto px-4 md:px-6 py-12 md:py-24 relative z-10">
-        <div className="flex flex-col items-center gap-12">
-          <div className="space-y-4 text-white text-center max-w-3xl">
+        <div className="flex flex-col items-center gap-8">
+          <div className="space-y-4 text-white text-center max-w-4xl">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               About the Developer
             </h2>
-             <p className="text-gray-200 text-base/6 max-w-2xl mx-auto">
-              Hi, my name is Prashanth. I began my career as a traditional CAD designer, spending long hours refining drawings in AutoCAD and SOLIDWORKS. The work was meticulous—but every repetitive click felt like time stolen from real innovation. Determined to reclaim that time, I searched for better ways to design.
-            </p>
           </div>
 
-          <div className="max-w-3xl w-full">
-            <div className="relative pl-8">
-              {/* Vertical line */}
-              <div className="absolute left-0 top-0 h-full w-0.5 bg-primary/50"></div>
-
-              {timelineEvents.map((event, index) => (
-                <div key={index} className="relative mb-10 pl-8">
-                  {/* Icon */}
-                  <div className="absolute -left-4 top-1 flex h-8 w-8 items-center justify-center rounded-full bg-primary ring-8 ring-background/10 backdrop-blur-sm">
-                    <event.icon className="h-5 w-5 text-primary-foreground" />
-                  </div>
-                  
-                  <div className="rounded-lg bg-card/10 backdrop-blur-sm p-6 border border-white/10 shadow-lg">
-                    <h4 className="font-headline text-xl font-semibold text-accent mb-2">{event.title}</h4>
-                    <p className="text-gray-200 text-base/6">{event.description}</p>
-                    {event.points && (
-                      <ul className="mt-2 list-disc list-inside space-y-1 text-gray-200 text-base/6">
-                        {event.points.map((point, i) => <li key={i}>{point}</li>)}
-                      </ul>
-                    )}
-                    {event.outro && (
-                        <p className="mt-2 text-gray-200 text-base/6">{event.outro}</p>
-                    )}
-                  </div>
-                </div>
-              ))}
+          <div className="max-w-5xl w-full bg-card/10 backdrop-blur-sm p-8 md:p-12 border border-white/10 shadow-lg rounded-lg">
+            <div className="text-gray-200 text-base/7 md:columns-3 gap-8 space-y-6">
+              <p>
+                Hi, my name is Prashanth. I began my career as a traditional CAD designer, spending long hours refining drawings in AutoCAD and SOLIDWORKS—meticulous work where every repetitive click felt like time stolen from real innovation. Determined to reclaim that time, I set out to find better ways to design.
+              </p>
+              <p>
+                My first breakthrough was an Excel-driven AutoCAD macro that automatically filled block attributes and generated sheets in seconds. Watching AutoCAD build drawings from a spreadsheet proved that automation could turn tedious tasks into instant results.
+              </p>
+              <p>
+                Eager to push further, I earned four Dassault Systèmes credentials—CSWP, CSWPA-WD, CSWPA-SM, and CSWPA-DT—while teaching myself VBA, C#, and .NET. Writing macros that assembled complex models at a single keystroke showed me that code can be as powerful a design tool as any sketch line.
+              </p>
+              <p>
+                At several engineering firms, I led automation initiatives that became game-changers: linking SOLIDWORKS PDM with ERP and SQL databases to cut release time by 60 percent; building DriveWorks-powered configurators that generate models, drawings, BOMs, and quotes in minutes; and developing custom Taskpane add-ins that collapsed multi-step rituals into single-click commands—saving thousands of engineering hours each year. These projects proved automation’s business value by streamlining operations, boosting accuracy, and multiplying team capacity.
+              </p>
+              <p>
+                Hands-on training in DriveWorks Solo refined my rule-based skills, bringing product logic alive on-screen. Combined with a Bachelor’s in Information Technology from the University of Moratuwa, this blend of mechanical insight and software expertise solidified my path as an Automation Engineer.
+              </p>
+              <p>
+                Today, I run my own CAD automation consultancy, partnering with engineering teams to uncover workflow bottlenecks, design and deploy bespoke CAD solutions that accelerate delivery and raise quality, and mentor in-house engineers so they can sustain and expand their automation roadmap. My mission is simple: turn every repetitive click into an opportunity for innovation.
+              </p>
             </div>
           </div>
 
