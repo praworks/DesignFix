@@ -29,10 +29,6 @@ const projects: Project[] = [
         url: "https://www.scotech-electrical.com/uploads/202027946/1000-kva-three-phase-indoor-dry-type35302456817.jpg",
         hint: "dry type transformer",
       },
-       {
-        url: "https://5.imimg.com/data5/SB/OD/ZY/SELLER-3264624/three-phase-oil-cooled-transformer-500x500.jpg",
-        hint: "oil cooled transformer",
-      },
     ],
   },
   {
