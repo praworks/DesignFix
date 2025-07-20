@@ -154,6 +154,18 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'img.uline.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.rapidracking.com',
+        port: '',
+        pathname: '/**',
+      }
     ],
   },
 };
