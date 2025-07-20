@@ -58,6 +58,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'develop3dlive.com',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
