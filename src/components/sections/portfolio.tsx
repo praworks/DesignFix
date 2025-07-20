@@ -84,6 +84,10 @@ const projects: Project[] = [
         url: "https://images.unsplash.com/photo-1590212151009-3d1983533824?q=80&w=2069&auto=format&fit=crop",
         hint: "truck trailer",
       },
+       {
+        url: "https://www.prioritybicycles.com/cdn/shop/files/600_hero_May2024_1of1.jpg?v=1716221309&width=1500",
+        hint: "bicycle",
+      },
     ],
   },
   {
