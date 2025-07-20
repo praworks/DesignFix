@@ -237,6 +237,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.3ds.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'damassets.autodesk.net',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
