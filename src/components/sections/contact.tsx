@@ -55,7 +55,8 @@ export default function ContactSection() {
                     Let&apos;s discuss how we can automate your design process, save you time, and accelerate your time-to-market. Fill out the form or reach out directly.
                 </p>
                 <div className="mt-8 space-y-4 text-lg">
-                    <p><strong>Email:</strong> contact@designflow.ai</p>
+                    <p><strong>Email:</strong> sug.prashanth@gmail.com</p>
+                    <p><strong>WhatsApp:</strong> +94777816896</p>
                     <p><strong>Location:</strong> Remote</p>
                 </div>
             </div>
