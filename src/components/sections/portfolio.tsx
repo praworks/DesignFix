@@ -129,10 +129,6 @@ const projects: Project[] = [
     name: "Storage Solutions",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1580221374567-2dba949673cc?q=80&w=2070&auto=format&fit=crop",
-        hint: "storage lockers",
-      },
-      {
         url: "https://www.ikea.com/us/en/images/products/billy-bookcase-brown-walnut-effect__1097082_pe864710_s5.jpg?f=xl",
         hint: "bookcase walnut",
       }
