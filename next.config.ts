@@ -64,6 +64,12 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'www.ikea.com.hk',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
