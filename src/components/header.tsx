@@ -1,7 +1,9 @@
+"use client";
+
 import Link from "next/link";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
-import { ChevronDown, Menu } from "lucide-react";
+import { Menu } from "lucide-react";
 import Logo from "./logo";
 import { ThemeToggle } from "./theme-toggle";
 
@@ -11,6 +13,22 @@ export default function Header() {
     { name: "Solutions", href: "#solutions" },
     { name: "Contact", href: "#contact" },
   ];
+
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, href: string) => {
+    e.preventDefault();
+    const targetId = href.replace(/.*#/, "");
+    const elem = document.getElementById(targetId);
+    if (elem) {
+      const headerOffset = 64; // Corresponds to h-16 in Tailwind
+      const elementPosition = elem.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
 
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
@@ -27,6 +45,7 @@ export default function Header() {
               <Link
                 key={link.name}
                 href={link.href}
+                onClick={(e) => handleScroll(e, link.href)}
                 className="transition-colors hover:text-foreground/80 text-foreground/60"
               >
                 {link.name}
@@ -52,13 +71,15 @@ export default function Header() {
             </Link>
             <div className="mt-6 flex flex-col space-y-4">
               {navLinks.map((link) => (
-                <Link
-                  key={link.name}
-                  href={link.href}
-                  className="text-lg font-medium text-foreground/80 hover:text-foreground"
-                >
-                  {link.name}
-                </Link>
+                <SheetClose asChild key={link.name}>
+                  <Link
+                    href={link.href}
+                    onClick={(e) => handleScroll(e, link.href)}
+                    className="text-lg font-medium text-foreground/80 hover:text-foreground"
+                  >
+                    {link.name}
+                  </Link>
+                </SheetClose>
               ))}
             </div>
           </SheetContent>
