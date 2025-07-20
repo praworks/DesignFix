@@ -39,7 +39,7 @@ const projects: Project[] = [
     name: "Architectural Components & Building Products",
     images: [
       {
-        url: "https://www.xinyidoorindustry.com/uploads/image/20201110/20/fire-exit-door.jpg",
+        url: "https://www.xinyidoorindustry.com/uploads/202019934/fire-rated-steel-doorset-ul-listed-exit-door202029111818.jpg",
         hint: "fire exit door",
       },
       {
