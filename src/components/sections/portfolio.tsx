@@ -139,6 +139,14 @@ const projects: Project[] = [
         url: "https://images.unsplash.com/photo-1621992039233-7de2e3c9a34a?q=80&w=1974&auto=format&fit=crop",
         hint: "sheet metal",
       },
+      {
+        url: "https://5.imimg.com/data5/OG/KV/AN/SELLER-90855508/sheet-metal-electrical-enclosure-500x500.jpg",
+        hint: "electrical enclosure",
+      },
+      {
+        url: "https://www.atanistank.com/akv/galvanized-steel-water-tank/Hot-dipped-Galvanized-Steel-Square-Water.jpg",
+        hint: "steel tank",
+      },
     ],
   },
   {

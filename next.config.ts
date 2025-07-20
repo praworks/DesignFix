@@ -177,6 +177,12 @@ const nextConfig: NextConfig = {
         hostname: 'assets.unitedstatesfittings.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.atanistank.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
