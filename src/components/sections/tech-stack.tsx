@@ -8,7 +8,7 @@ const tech = [
   },
   { 
     name: "DriveWorks", 
-    logo: "https://www.driveworks.co.uk/wp-content/uploads/2022/10/driveworks-logo-icon.png", 
+    logo: "https://www.driveworks.co.uk/wp-content/uploads/2024/06/YoastSEO-OrganizationLogo.jpg", 
     description: "Design Automation" 
   },
   { 
