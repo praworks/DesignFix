@@ -171,6 +171,12 @@ const nextConfig: NextConfig = {
         hostname: 'ahlada.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'assets.unitedstatesfittings.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
