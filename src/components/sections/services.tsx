@@ -5,9 +5,14 @@ import SolidworksOptimizationSectionContent from "@/components/sections/solidwor
 
 export default function ServicesSection() {
   return (
-    <section id="solutions" className="bg-background">
-      <div className="container mx-auto px-4 md:px-6 py-12 md:py-24 lg:py-32">
-        <Tabs defaultValue="automation" className="w-full">
+    <section id="solutions" className="bg-card">
+      <div className="container mx-auto px-4 md:px-6">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+                Solutions
+            </h2>
+        </div>
+        <Tabs defaultValue="automation" className="w-full mt-8">
           <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3 h-auto">
             <TabsTrigger value="automation" className="py-2">Advanced CAD Automation</TabsTrigger>
             <TabsTrigger value="reverse-engineering" className="py-2">Reverse Engineering</TabsTrigger>
