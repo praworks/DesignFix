@@ -165,6 +165,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.rapidracking.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'ahlada.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
