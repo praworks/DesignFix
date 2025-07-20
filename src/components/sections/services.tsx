@@ -49,7 +49,7 @@ export default function ServicesSection() {
   };
 
   return (
-    <section id="solutions" className="bg-card">
+    <section id="solutions" className="bg-card scroll-mt-[140px]">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
