@@ -7,6 +7,7 @@ import PortfolioSection from "@/components/sections/portfolio";
 import TechStackSection from "@/components/sections/tech-stack";
 import ContactSection from "@/components/sections/contact";
 import Footer from "@/components/footer";
+import ReverseEngineeringSection from "@/components/sections/reverse-engineering";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
         <WhyAutomateSection />
         <AboutSection />
         <SolutionsSection />
+        <ReverseEngineeringSection />
         <PortfolioSection />
         <TechStackSection />
         <ContactSection />
