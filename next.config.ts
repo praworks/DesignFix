@@ -142,6 +142,18 @@ const nextConfig: NextConfig = {
         port: '',
         pathname: '/**',
       },
+      {
+        protocol: 'https',
+        hostname: 'jeewakapharmacy.lk',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.australiahoverboards.com.au',
+        port: '',
+        pathname: '/**',
+      },
     ],
   },
 };
