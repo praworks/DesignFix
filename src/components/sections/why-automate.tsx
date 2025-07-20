@@ -70,7 +70,7 @@ export default function WhyAutomateSection() {
                 <DialogContent className="sm:max-w-[625px] p-0">
                   <div className="aspect-video">
                     <iframe
-                      src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+                      src="https://www.youtube.com/embed/KD336dxw4-A"
                       title="Why CAD Automation Matters"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
