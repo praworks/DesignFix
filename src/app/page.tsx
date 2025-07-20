@@ -3,6 +3,7 @@ import HeroSection from "@/components/sections/hero";
 import AboutSection from "@/components/sections/about";
 import WhyAutomateSection from "@/components/sections/why-automate";
 import SolutionsSection from "@/components/sections/solutions";
+import PortfolioSection from "@/components/sections/portfolio";
 import TechStackSection from "@/components/sections/tech-stack";
 import ContactSection from "@/components/sections/contact";
 import Footer from "@/components/footer";
@@ -16,6 +17,7 @@ export default function Home() {
         <WhyAutomateSection />
         <AboutSection />
         <SolutionsSection />
+        <PortfolioSection />
         <TechStackSection />
         <ContactSection />
       </main>
