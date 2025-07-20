@@ -13,10 +13,10 @@ export default function ServicesSection() {
             </h2>
         </div>
         <Tabs defaultValue="automation" className="w-full mt-8">
-          <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3 h-auto">
-            <TabsTrigger value="automation" className="py-2">Advanced CAD Automation</TabsTrigger>
-            <TabsTrigger value="reverse-engineering" className="py-2">Reverse Engineering</TabsTrigger>
-            <TabsTrigger value="optimization" className="py-2">SolidWorks Optimization</TabsTrigger>
+          <TabsList className="grid w-full grid-cols-1 sm:grid-cols-3 h-auto bg-primary/20 backdrop-blur-sm border border-primary/30 text-primary-foreground">
+            <TabsTrigger value="automation" className="py-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg">Advanced CAD Automation</TabsTrigger>
+            <TabsTrigger value="reverse-engineering" className="py-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg">Reverse Engineering</TabsTrigger>
+            <TabsTrigger value="optimization" className="py-2 data-[state=active]:bg-primary data-[state=active]:text-primary-foreground data-[state=active]:shadow-lg">SolidWorks Optimization</TabsTrigger>
           </TabsList>
           <TabsContent value="automation" className="mt-8">
             <SolutionsSectionContent />
