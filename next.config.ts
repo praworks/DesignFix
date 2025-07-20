@@ -243,6 +243,12 @@ const nextConfig: NextConfig = {
         hostname: 'damassets.autodesk.net',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.nilkamaledge.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

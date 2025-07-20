@@ -70,6 +70,10 @@ const projects: Project[] = [
       {
         url: "https://www.ikea.com/es/en/images/products/nammaro-lounge-chair-outdoor-light-brown-stained__1138755_pe880055_s5.jpg?f=xl",
         hint: "lounge chair",
+      },
+      {
+        url: "https://www.nilkamaledge.com/cdn/shop/files/OPTIMIZECUSTOMCurvilinear-1.jpg?v=1703656726",
+        hint: "office desk",
       }
     ],
   },
