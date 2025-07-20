@@ -52,6 +52,10 @@ const projects: Project[] = [
       {
         url: "https://www.ikea.com/gb/en/images/products/eket-cabinet-w-2-doors-and-1-shelf-brown-walnut-effect__1373669_pe960035_s5.jpg",
         hint: "walnut cabinet",
+      },
+      {
+        url: "https://www.ikea.com/gb/en/images/products/hemnes-glass-door-cabinet-with-3-drawers-white-stain-light-brown__0805255_pe769478_s5.jpg?f=xl",
+        hint: "white cabinet",
       }
     ],
   },
