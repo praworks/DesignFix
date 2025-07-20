@@ -27,14 +27,16 @@ export default function WhatIsDesignAutomationSection() {
             </p>
           </div>
           <div className="flex justify-center">
-            <Image
-              src="https://cdn.goengineer.com/input-new-dimensions-solidworks-macro.gif"
-              alt="Design Automation GIF"
-              width={550}
-              height={310}
-              className="rounded-xl shadow-lg"
-              unoptimized
-            />
+            <div className="aspect-video w-full max-w-lg rounded-xl shadow-lg overflow-hidden">
+                <iframe
+                    src="https://www.youtube.com/embed/owD0O9JUyxU?start=148&end=420"
+                    title="Design Automation in Action"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                ></iframe>
+            </div>
           </div>
         </div>
       </div>

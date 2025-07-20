@@ -267,6 +267,12 @@ const nextConfig: NextConfig = {
         hostname: 'cdn.goengineer.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.youtube.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
