@@ -1,11 +1,11 @@
 "use client";
 
-import { useFormState, useFormStatus } from "react-dom";
+import { useActionState, useEffect } from "react";
+import { useFormStatus } from "react-dom";
 import { enhanceContentAction, type EnhanceState } from "@/app/enhance/actions";
 import { Button } from "./ui/button";
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "./ui/card";
 import { Textarea } from "./ui/textarea";
-import { useEffect } from "react";
 import { useToast } from "@/hooks/use-toast";
 import { Alert, AlertDescription, AlertTitle } from "./ui/alert";
 import { Terminal } from "lucide-react";
@@ -26,7 +26,7 @@ function SubmitButton() {
 }
 
 export default function ContentEnhancerForm() {
-  const [state, formAction] = useFormState(enhanceContentAction, initialState);
+  const [state, formAction] = useActionState(enhanceContentAction, initialState);
   const { toast } = useToast();
 
   useEffect(() => {
