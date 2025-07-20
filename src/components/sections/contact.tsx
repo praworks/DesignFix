@@ -57,7 +57,6 @@ export default function ContactSection() {
                 <div className="mt-8 space-y-4 text-lg">
                     <p><strong>Email:</strong> sug.prashanth@gmail.com</p>
                     <p><strong>WhatsApp:</strong> +94777816896</p>
-                    <p><strong>Location:</strong> Remote</p>
                 </div>
             </div>
             <Card>
