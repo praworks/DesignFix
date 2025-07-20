@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -23,7 +24,7 @@ export default function HeroSection() {
                 <DialogContent className="sm:max-w-[625px] p-0">
                   <div className="aspect-video">
                     <iframe
-                      src="https://www.youtube.com/embed/KD336dxw4-A"
+                      src="https://www.youtube.com/embed/S2aC_84AnA4"
                       title="Sample Automation Workflow"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -33,9 +34,11 @@ export default function HeroSection() {
                   </div>
                 </DialogContent>
               </Dialog>
-              <Button size="lg" variant="outline">
-                Request a Free Demo
-              </Button>
+              <Link href="#contact">
+                <Button size="lg" variant="secondary">
+                  Request a Free Demo
+                </Button>
+              </Link>
             </div>
           </div>
           <div className="w-full max-w-4xl rounded-xl shadow-lg border bg-background overflow-hidden">
