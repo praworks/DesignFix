@@ -39,12 +39,16 @@ export default function HeroSection() {
             </div>
           </div>
           <div className="w-full max-w-4xl rounded-xl shadow-lg border bg-background overflow-hidden">
-            <img
-              src="https://placehold.co/600x400.png"
-              alt="CAD Automation Visual"
-              data-ai-hint="CAD design robotics"
-              className="mx-auto aspect-video object-cover"
-            />
+            <div className="aspect-video">
+                <iframe
+                    src="https://www.youtube.com/embed/KD336dxw4-A"
+                    title="CAD Automation Visual"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    className="w-full h-full"
+                ></iframe>
+            </div>
           </div>
         </div>
       </div>
