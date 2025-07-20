@@ -1,14 +1,3 @@
-import { CheckCircle } from "lucide-react";
-
-const services = [
-  "CAD design solutions",
-  "SolidWorks automation using API & macros",
-  "DriveWorks configuration setup",
-  "Autodesk/Inventor automation",
-  "Taskpane UI design and integration",
-  "Design optimization workflows",
-  "Custom .NET/C# CAD tools Macros",
-];
 
 export default function AboutSection() {
   return (
@@ -39,17 +28,6 @@ export default function AboutSection() {
               that reduce manual work, minimize errors, and accelerate
               delivery.
             </p>
-            <div className="mt-8">
-              <h3 className="font-headline text-xl font-bold tracking-tighter">Key Services</h3>
-              <ul className="mt-4 grid grid-cols-1 gap-2 sm:grid-cols-2">
-                {services.map((service) => (
-                  <li key={service} className="flex items-center gap-2">
-                    <CheckCircle className="h-5 w-5 text-primary" />
-                    <span>{service}</span>
-                  </li>
-                ))}
-              </ul>
-            </div>
           </div>
         </div>
       </div>
