@@ -166,8 +166,12 @@ const projects: Project[] = [
     name: "Agricultural Equipment",
     images: [
       {
-        url: "https://images.unsplash.com/photo-1582996131649-f04d7321azzi?q=80&w=1964&auto=format&fit=crop",
+        url: "https://images.unsplash.com/photo-1582996131649-f04d7321acdc?q=80&w=1964&auto=format&fit=crop",
         hint: "farm equipment",
+      },
+      {
+        url: "https://s.alicdn.com/@sc04/kf/He9c5b85d2e0f441da9f9a048ab2ff420W/Names-Agricultural-Tools.png_300x300.jpg",
+        hint: "agricultural tools",
       },
     ],
   },

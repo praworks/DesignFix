@@ -183,6 +183,12 @@ const nextConfig: NextConfig = {
         hostname: 'www.atanistank.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 's.alicdn.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
