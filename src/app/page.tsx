@@ -26,27 +26,6 @@ export default function Home() {
         <PortfolioSection />
         <TechStackSection />
         <AboutSection />
-        <section className="bg-background py-12 md:py-24 lg:py-32">
-          <div className="container mx-auto px-4 md:px-6">
-            <div className="relative w-full max-w-4xl mx-auto">
-              <figure>
-                <div className="aspect-video w-full rounded-xl shadow-lg overflow-hidden border">
-                  <Image
-                    src="https://cdn.goengineer.com/input-new-dimensions-solidworks-macro.gif"
-                    alt="SolidWorks macro in action"
-                    width={800}
-                    height={450}
-                    unoptimized
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <figcaption className="mt-4 text-center text-sm text-muted-foreground">
-                  A simple macro automates cube modeling in SolidWorks.
-                </figcaption>
-              </figure>
-            </div>
-          </div>
-        </section>
         <ContactSection />
       </main>
       <Footer />

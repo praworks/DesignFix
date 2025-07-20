@@ -28,16 +28,21 @@ export default function WhatIsDesignAutomationSection() {
             </p>
           </div>
           <div className="flex justify-center">
-            <div className="aspect-video w-full max-w-lg rounded-xl shadow-lg overflow-hidden">
-                <iframe
-                    src="https://www.youtube.com/embed/owD0O9JUyxU?start=148&end=420"
-                    title="Design Automation in Action"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                ></iframe>
-            </div>
+             <figure>
+                <div className="aspect-video w-full max-w-lg rounded-xl shadow-lg overflow-hidden border">
+                  <Image
+                    src="https://cdn.goengineer.com/input-new-dimensions-solidworks-macro.gif"
+                    alt="SolidWorks macro in action"
+                    width={800}
+                    height={450}
+                    unoptimized
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <figcaption className="mt-4 text-center text-sm text-muted-foreground">
+                  A simple macro automates cube modeling in SolidWorks.
+                </figcaption>
+              </figure>
           </div>
         </div>
       </div>
