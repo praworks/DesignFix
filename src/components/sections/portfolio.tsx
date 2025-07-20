@@ -15,11 +15,11 @@ const projects = [
 
 export default function PortfolioSection() {
   return (
-    <section id="portfolio" className="bg-card">
+    <section id="industries" className="bg-card">
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
-            Portfolio Projects
+            Common Industries That Benefit from CAD Automation
           </h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             From industrial machinery to consumer products, our automation solutions cover a wide range of applications.
