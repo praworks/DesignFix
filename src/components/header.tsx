@@ -10,7 +10,6 @@ export default function Header() {
     { name: "About", href: "#about" },
     { name: "Solutions", href: "#solutions" },
     { name: "Contact", href: "#contact" },
-    { name: "AI Enhancer", href: "/enhance" },
   ];
 
   return (
