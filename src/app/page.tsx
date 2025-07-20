@@ -31,7 +31,6 @@ export default function Home() {
                   src="https://videos.autodesk.com/zencoder/content/dam/autodesk/www/solutions/design-automation/what-is-design-automation-video-1920x817.mp4"
                   title="Design Automation"
                   controls
-                  autoPlay
                   muted
                   loop
                   className="w-full h-full object-cover"
