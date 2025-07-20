@@ -48,7 +48,7 @@ export default function PortfolioSection() {
                         src={project.image}
                         alt={project.name}
                         fill
-                        className="object-cover"
+                        className="object-contain"
                     />
                 </div>
               <CardContent className="p-4">
