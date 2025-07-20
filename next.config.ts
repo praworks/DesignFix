@@ -189,6 +189,18 @@ const nextConfig: NextConfig = {
         hostname: 's.alicdn.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'sc04.alicdn.com',
+        port: '',
+        pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: 'cdn.salla.sa',
+        port: '',
+        pathname: '/**',
       }
     ],
   },

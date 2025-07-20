@@ -25,6 +25,14 @@ const projects: Project[] = [
         url: "https://www.scotech-electrical.com/uploads/202027946/1000-kva-three-phase-indoor-dry-type35302456817.jpg",
         hint: "dry type transformer",
       },
+      {
+        url: "https://sc04.alicdn.com/kf/H1200f2c274e9466d817cd3f5d9860a8cL.png",
+        hint: "submersible pump",
+      },
+      {
+        url: "https://cdn.salla.sa/rKAOO/pTcxXZpKKFsGxq9iRuX24v9tu8S5cUr4uRexEFQt.jpg",
+        hint: "water pump",
+      },
     ],
   },
   {
