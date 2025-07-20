@@ -74,6 +74,10 @@ const projects: Project[] = [
       {
         url: "https://www.nilkamaledge.com/cdn/shop/files/OPTIMIZECUSTOMCurvilinear-1.jpg?v=1703656726",
         hint: "office desk",
+      },
+      {
+        url: "https://www.ikea.com/us/en/images/products/trotten-desk-sit-stand-beige-anthracite__1020760_pe831986_s5.jpg?f=xl",
+        hint: "sit stand desk",
       }
     ],
   },
