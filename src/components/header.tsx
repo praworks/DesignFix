@@ -17,7 +17,7 @@ export default function Header() {
     {
       name: "Solutions",
       dropdown: [
-        { name: "CAD Automation", href: "#solutions" },
+        { name: "Advanced CAD Automation", href: "#solutions" },
         { name: "Reverse Engineering", href: "#reverse-engineering" },
         { name: "SolidWorks Optimization", href: "#solidworks-optimization" },
       ],

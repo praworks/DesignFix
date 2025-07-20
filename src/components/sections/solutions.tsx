@@ -108,7 +108,7 @@ export default function SolutionsSection() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
-            CAD Automation Solutions
+            Advanced CAD Automation Solutions
           </h2>
           <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
             Explore how our custom automation tools can transform your design workflows across various applications.
