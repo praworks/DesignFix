@@ -9,9 +9,9 @@ export default function HeroSection() {
         <div className="flex flex-col items-center gap-8 text-center">
           <div className="flex flex-col justify-center space-y-4">
             <div className="space-y-2">
-              <h2 className="font-cursive text-4xl font-bold tracking-tight text-primary-foreground/90 md:text-5xl">
+              <h1 className="font-headline text-5xl font-bold tracking-tighter sm:text-6xl md:text-7xl">
                 Why waste time drawing? Automate the design.
-              </h2>
+              </h1>
               <p className="mx-auto max-w-[700px] text-primary-foreground/80 md:text-xl">
                 Eliminate repetitive tasks, reduce design errors, and speed up delivery. Discover how CAD automation can transform your workflow and boost productivity. Your workflow—supercharged.
               </p>
