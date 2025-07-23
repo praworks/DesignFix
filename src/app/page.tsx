@@ -1,6 +1,5 @@
 import Header from "@/components/header";
 import HeroSection from "@/components/sections/hero";
-import AboutSection from "@/components/sections/about";
 import WhyAutomateSection from "@/components/sections/why-automate";
 import PortfolioSection from "@/components/sections/portfolio";
 import TechStackSection from "@/components/sections/tech-stack";
@@ -8,6 +7,7 @@ import ContactSection from "@/components/sections/contact";
 import Footer from "@/components/footer";
 import WhatIsDesignAutomationSection from "@/components/sections/what-is-design-automation";
 import ServicesSection from "@/components/sections/services";
+import CtaSection from "@/components/sections/cta";
 
 export default function Home() {
   return (
@@ -21,6 +21,7 @@ export default function Home() {
         <PortfolioSection />
         <TechStackSection />
         <ContactSection />
+        <CtaSection />
       </main>
       <Footer />
     </div>
