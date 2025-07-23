@@ -9,7 +9,6 @@ import { ThemeToggle } from "./theme-toggle";
 
 export default function Header() {
   const navLinks = [
-    { name: "About", href: "#about" },
     { name: "Solutions", href: "#solutions" },
     { name: "Contact", href: "#contact" },
   ];
@@ -81,10 +80,26 @@ export default function Header() {
                   </Link>
                 </SheetClose>
               ))}
+               <SheetClose asChild>
+                  <Link
+                    href="/about"
+                    className="text-lg font-medium text-foreground/80 hover:text-foreground"
+                  >
+                    About me
+                  </Link>
+                </SheetClose>
             </div>
           </SheetContent>
         </Sheet>
         <div className="flex flex-1 items-center justify-end space-x-4">
+          <nav className="hidden md:flex items-center space-x-6 text-sm font-medium">
+             <Link
+                href="/about"
+                className="transition-colors hover:text-foreground/80 text-foreground/60"
+              >
+                About me
+              </Link>
+          </nav>
           <ThemeToggle />
         </div>
       </div>
