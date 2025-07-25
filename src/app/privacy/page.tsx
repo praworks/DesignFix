@@ -33,7 +33,7 @@ export default function PrivacyPage() {
             </p>
             <h2>4. Data Security</h2>
             <p>
-              Explain the measures you take to protect user data.
+              Explain the measures you take to take to protect user data.
             </p>
             <h2>5. Your Rights</h2>
             <p>
@@ -45,7 +45,7 @@ export default function PrivacyPage() {
               Provide contact information for any privacy-related inquiries.
             </p>
              <address className="not-italic">
-              <strong>DesignFix</strong>
+              <strong>DesignFlow AI</strong>
               <br />
               Attn: S. Prashanth (Developer & Founder)
               <br />
