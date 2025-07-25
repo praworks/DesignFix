@@ -4,6 +4,7 @@ import { Inter, Space_Grotesk, Dancing_Script } from 'next/font/google'
 import { cn } from '@/lib/utils';
 import { Toaster } from "@/components/ui/toaster"
 import { ThemeProvider } from '@/components/theme-provider';
+import { Analytics } from '@vercel/analytics/react';
 
 const fontBody = Inter({ 
   subsets: ['latin'],
@@ -50,6 +51,7 @@ export default function RootLayout({
           {children}
           <Toaster />
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
