@@ -25,7 +25,7 @@ const fontCursive = Dancing_Script({
 
 
 export const metadata: Metadata = {
-  title: 'DesignFlow AI - Automating Design. Accelerating Innovation.',
+  title: 'DesignFix - Automating Design. Accelerating Innovation.',
   description: 'Custom CAD Automation and Design Solutions for Next-Gen Product Development',
   robots: 'index, follow',
 };

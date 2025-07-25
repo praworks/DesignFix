@@ -16,7 +16,7 @@ export default function TermsPage() {
             <h2>1. Acceptance of Terms</h2>
             <p>
               By accessing or using the services, software, or website
-              (collectively, “Services”) provided by DesignFlow AI (“Company, we,
+              (collectively, “Services”) provided by DesignFix (“Company, we,
               us”), you (“Client, you”) agree to be bound by these Terms of
               Service (“Terms”). If you do not accept all Terms, you may not use
               our Services.
@@ -24,7 +24,7 @@ export default function TermsPage() {
 
             <h2>2. Scope of Services</h2>
             <p>
-              DesignFlow AI provides computer-aided-design (CAD) automation
+              DesignFix provides computer-aided-design (CAD) automation
               consulting, custom software add-ins, training, and related
               technical support (the “Services”) as described in individual
               project proposals or Statements of Work (“SOW”). Any new features
@@ -107,7 +107,7 @@ export default function TermsPage() {
 
             <h2>9. Indemnification</h2>
             <p>
-              Client will indemnify and hold harmless DesignFlow AI, its officers,
+              Client will indemnify and hold harmless DesignFix, its officers,
               and employees against any third-party claims arising from (a)
               Client’s misuse of the Services, (b) content provided by Client,
               or (c) Client’s violation of applicable laws or these Terms.
@@ -181,7 +181,7 @@ export default function TermsPage() {
               please contact:
             </p>
             <address className="not-italic">
-              <strong>DesignFlow AI</strong>
+              <strong>DesignFix</strong>
               <br />
               Attn: S. Prashanth (Developer & Founder)
               <br />
@@ -194,7 +194,7 @@ export default function TermsPage() {
               Email: support@designfix.com
             </address>
 
-            <p>© 2025 DesignFlow AI. All rights reserved.</p>
+            <p>© 2025 DesignFix. All rights reserved.</p>
           </div>
         </div>
       </main>

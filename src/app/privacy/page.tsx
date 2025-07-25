@@ -45,7 +45,7 @@ export default function PrivacyPage() {
               Provide contact information for any privacy-related inquiries.
             </p>
              <address className="not-italic">
-              <strong>DesignFlow AI</strong>
+              <strong>DesignFix</strong>
               <br />
               Attn: S. Prashanth (Developer & Founder)
               <br />
