@@ -9,7 +9,7 @@ import WhatIsDesignAutomationSection from "@/components/sections/what-is-design-
 import ServicesSection from "@/components/sections/services";
 import CtaSection from "@/components/sections/cta";
 
-export default function Home() {
+export default function GitPage() {
   return (
     <div className="flex flex-col min-h-screen bg-background">
       <Header />
