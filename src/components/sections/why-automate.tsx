@@ -1,6 +1,7 @@
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Check } from "lucide-react";
+import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
+import { Check, ArrowRight } from "lucide-react";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
+import Image from "next/image";
 
 const benefits = [
   {
@@ -25,31 +26,79 @@ export default function WhyAutomateSection() {
   return (
     <section id="why-automate" className="bg-card">
       <div className="container mx-auto px-4 md:px-6">
-        <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
-          <div className="space-y-6">
-            <h2 className="font-headline text-2xl font-bold tracking-tighter sm:text-3xl">
+        <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+            <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
               Why Automate Your CAD Design Process?
             </h2>
-            <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed">
+            <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
               Investing in CAD automation isn&apos;t just about saving time. It&apos;s about transforming your entire product development lifecycle to be faster, more reliable, and more innovative.
             </p>
-            <div className="grid gap-4 sm:grid-cols-2">
-              {benefits.map((benefit) => (
-                 <Card key={benefit.title} className="bg-background shadow-md rounded-lg hover:shadow-lg transition-shadow">
-                  <CardHeader className="flex flex-row items-center gap-4 pb-2">
-                     <div className="flex h-8 w-8 items-center justify-center rounded-full bg-primary text-primary-foreground">
-                       <Check className="h-5 w-5" />
-                     </div>
-                     <CardTitle className="font-headline text-lg">{benefit.title}</CardTitle>
-                   </CardHeader>
-                   <CardContent>
-                     <p className="text-muted-foreground">{benefit.description}</p>
-                   </CardContent>
-                 </Card>
-              ))}
+        </div>
+
+        <div className="grid items-start gap-12 lg:grid-cols-2 lg:gap-16">
+          <Card className="bg-background shadow-lg h-full flex flex-col">
+            <CardHeader>
+                <div className="relative aspect-video w-full mb-4 rounded-lg overflow-hidden">
+                    <Image
+                        src="https://epower-bd.com/wp-content/uploads/2023/11/Hydraulic-Cylinder.jpg"
+                        alt="Hydraulic cylinders"
+                        fill
+                        className="object-cover"
+                        data-ai-hint="hydraulic cylinders"
+                    />
+                </div>
+                <CardTitle className="font-headline text-2xl">Use Case: Standard Product Variants Generation</CardTitle>
+                <CardDescription>
+                  Imagine a company that manufactures hydraulic cylinders, receiving over 250 custom requests annually for minor variations.
+                </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-6 text-sm flex-grow">
+              <div>
+                <h4 className="font-semibold text-base mb-2">Traditional Process (45-60 mins per variant)</h4>
+                <ul className="space-y-1 list-disc list-inside text-muted-foreground">
+                  <li>Manually modify the master model</li>
+                  <li>Update associated drawings and BOMs</li>
+                  <li>Recheck clearances, weights, and part numbers</li>
+                  <li>Generate new PDF drawings and STEP files</li>
+                  <li>Upload to server and notify production</li>
+                </ul>
+                <p className="font-semibold mt-2">Total annual time spent: 250 variants × 1 hour = <span className="text-primary">250 hours/year</span></p>
+              </div>
+
+              <div>
+                <h4 className="font-semibold text-base mb-2">Automated Process (Under 5 mins per variant)</h4>
+                 <ul className="space-y-1 list-disc list-inside text-muted-foreground">
+                    <li>Customers or sales staff input key specs via a form</li>
+                    <li>3D models and drawings are auto-generated</li>
+                    <li>BOM and part numbers update automatically</li>
+                    <li>Outputs are instantly ready for approval or production</li>
+                </ul>
+                 <p className="font-semibold mt-2">Result: Time per variant drops from 60 minutes to under 5 minutes. <span className="text-primary">Annual time saved: ~230 hours</span></p>
+              </div>
+            </CardContent>
+          </Card>
+          
+          <div className="space-y-8">
+            <div className="space-y-4">
+              <h3 className="font-headline text-2xl font-bold">Key Benefits Beyond Time Savings</h3>
+              <ul className="space-y-3">
+                {[
+                  "Faster response to customer inquiries and RFQs",
+                  "Shorter lead times and quicker deliveries",
+                  "Reduced risk of human error in repetitive tasks",
+                  "More consistent output and documentation",
+                  "Empowerment of sales and non-technical staff to generate designs"
+                ].map(benefit => (
+                   <li key={benefit} className="flex items-start gap-3">
+                      <div className="flex h-6 w-6 items-center justify-center rounded-full bg-primary text-primary-foreground mt-0.5 shrink-0">
+                          <Check className="h-4 w-4" />
+                      </div>
+                      <span className="text-muted-foreground">{benefit}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
-          </div>
-          <div className="flex items-center justify-center">
+             <div className="flex items-center justify-center">
              <Dialog>
                 <DialogTrigger asChild>
                     <div className="relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105">
@@ -81,6 +130,7 @@ export default function WhyAutomateSection() {
                   </div>
                 </DialogContent>
               </Dialog>
+            </div>
           </div>
         </div>
       </div>
