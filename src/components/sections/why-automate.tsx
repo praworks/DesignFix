@@ -101,15 +101,15 @@ export default function WhyAutomateSection() {
              <div className="flex items-center justify-center">
              <Dialog>
                 <DialogTrigger asChild>
-                    <div className="relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105">
-                        <div className="aspect-video w-full max-w-lg">
+                    <div className="relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105 w-full">
+                        <div className="aspect-video">
                             <iframe
                                 src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8"
                                 title="Why CAD Automation Matters"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                                 allowFullScreen
-                                className="w-full h-full rounded-lg"
+                                className="absolute top-0 left-0 w-full h-full rounded-lg"
                             ></iframe>
                         </div>
                         <div className="absolute inset-0 flex items-center justify-center bg-black/20">
@@ -117,15 +117,15 @@ export default function WhyAutomateSection() {
                         </div>
                     </div>
                 </DialogTrigger>
-                <DialogContent className="sm:max-w-[625px] p-0">
+                <DialogContent className="max-w-3xl p-0">
                   <div className="aspect-video">
                     <iframe
-                      src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8"
+                      src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8&autoplay=1"
                       title="Why CAD Automation Matters"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                       allowFullScreen
-                      className="w-full h-full rounded-lg"
+                      className="w-full h-full"
                     ></iframe>
                   </div>
                 </DialogContent>
