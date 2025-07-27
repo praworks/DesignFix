@@ -36,7 +36,7 @@ export default function WhatIsDesignAutomationSection() {
                     width={800}
                     height={450}
                     unoptimized
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain"
                   />
                 </div>
                 <figcaption className="mt-4 text-center text-sm text-muted-foreground">
