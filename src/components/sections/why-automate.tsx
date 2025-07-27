@@ -40,11 +40,11 @@ export default function WhyAutomateSection() {
             <CardHeader>
                 <div className="relative aspect-video w-full mb-4 rounded-lg overflow-hidden">
                     <Image
-                        src="https://epower-bd.com/wp-content/uploads/2023/11/Hydraulic-Cylinder.jpg"
+                        src="https://www.driveworks.co.uk/wp-content/uploads/2024/01/DriveWorksXpress-ExampleProject-PressureVessel.jpg"
                         alt="Hydraulic cylinders"
                         fill
                         className="object-cover"
-                        data-ai-hint="hydraulic cylinders"
+                        data-ai-hint="pressure vessel"
                     />
                 </div>
                 <CardTitle className="font-headline text-2xl">Use Case: Standard Product Variants Generation</CardTitle>
