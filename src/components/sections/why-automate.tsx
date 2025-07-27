@@ -104,7 +104,7 @@ export default function WhyAutomateSection() {
                     <div className="relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105">
                         <div className="aspect-video w-full max-w-lg">
                             <iframe
-                                src="https://www.youtube.com/embed/KD336dxw4-A"
+                                src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8"
                                 title="Why CAD Automation Matters"
                                 frameBorder="0"
                                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -120,7 +120,7 @@ export default function WhyAutomateSection() {
                 <DialogContent className="sm:max-w-[625px] p-0">
                   <div className="aspect-video">
                     <iframe
-                      src="https://www.youtube.com/embed/KD336dxw4-A"
+                      src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8"
                       title="Why CAD Automation Matters"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -146,7 +146,7 @@ function PlayIcon(props: React.SVGProps<SVGSVGElement>) {
         xmlns="http://www.w3.org/2000/svg"
         width="24"
         height="24"
-        viewBox="0 0 24 24"
+        viewBox="0 0 24"
         fill="none"
         stroke="currentColor"
         strokeWidth="2"
