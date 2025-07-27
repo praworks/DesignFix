@@ -103,14 +103,12 @@ export default function WhyAutomateSection() {
                 <DialogTrigger asChild>
                     <div className="relative cursor-pointer overflow-hidden rounded-xl shadow-lg transition-transform hover:scale-105 w-full">
                         <div className="aspect-video">
-                            <iframe
-                                src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8"
-                                title="Why CAD Automation Matters"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen
-                                className="absolute top-0 left-0 w-full h-full rounded-lg"
-                            ></iframe>
+                            <Image
+                                src="https://img.youtube.com/vi/gjjq25XW_Ro/maxresdefault.jpg"
+                                alt="Why CAD Automation Matters Thumbnail"
+                                fill
+                                className="object-cover"
+                            />
                         </div>
                         <div className="absolute inset-0 flex items-center justify-center bg-black/20">
                             <PlayIcon className="h-20 w-20 text-white" />
