@@ -1,5 +1,6 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Image from "next/image";
 import React from "react";
 
 export default function AboutPage() {
@@ -15,10 +16,21 @@ export default function AboutPage() {
           <div className="absolute inset-0 bg-black/70 z-0"></div>
           <div className="container mx-auto px-4 md:px-6 relative z-10">
             <div className="flex flex-col items-center gap-8">
-              <div className="space-y-4 text-white text-center max-w-4xl">
-                <h1 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
-                  About the Developer
-                </h1>
+              <div className="flex flex-col items-center text-center space-y-6">
+                <Image 
+                  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=300&h=300&fit=crop&crop=faces"
+                  alt="S. Prashanth"
+                  width={160}
+                  height={160}
+                  className="rounded-full border-4 border-white shadow-lg"
+                  data-ai-hint="man portrait"
+                />
+                <div className="space-y-2 text-white">
+                    <h1 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                      About the Developer
+                    </h1>
+                    <p className="text-xl text-gray-300">S. Prashanth</p>
+                </div>
               </div>
 
               <div className="max-w-5xl w-full p-8 md:p-12">
