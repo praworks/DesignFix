@@ -18,11 +18,11 @@ export default function AboutPage() {
             <div className="flex flex-col items-center gap-8">
               <div className="flex flex-col items-center text-center space-y-6">
                 <Image 
-                  src="https://images.unsplash.com/photo-1599566150163-29194dcaad36?q=80&w=300&h=300&fit=crop&crop=faces"
+                  src="https://storage.googleapis.com/aif-stg-testing-public-file-upload/2024-07-31/16-24-30-588145_original.png"
                   alt="S. Prashanth"
                   width={160}
                   height={160}
-                  className="rounded-full border-4 border-white shadow-lg"
+                  className="rounded-full border-4 border-white shadow-lg object-cover"
                   data-ai-hint="man portrait"
                 />
                 <div className="space-y-2 text-white">
