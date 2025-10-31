@@ -1,5 +1,11 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Terms of Service | DesignFix",
+  description: "Read the Terms of Service for DesignFix. By using our CAD automation services, you agree to these terms.",
+};
 
 export default function TermsPage() {
   return (

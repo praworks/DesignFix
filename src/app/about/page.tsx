@@ -1,7 +1,13 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
+
+export const metadata: Metadata = {
+  title: "About S. Prashanth - CAD Automation Expert | DesignFix",
+  description: "Learn about S. Prashanth, the founder of DesignFix and a seasoned CAD automation engineer with expertise in SolidWorks, DriveWorks, and custom .NET solutions.",
+};
 
 export default function AboutPage() {
   return (

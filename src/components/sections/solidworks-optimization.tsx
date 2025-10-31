@@ -30,9 +30,9 @@ export default function SolidworksOptimizationSectionContent() {
   return (
     <>
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+        <h3 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
           SolidWorks Optimization Solutions
-        </h2>
+        </h3>
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           Unlock the full potential of your SolidWorks environment. We fine-tune your setup and workflows for maximum speed and efficiency.
         </p>

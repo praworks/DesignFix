@@ -30,9 +30,9 @@ export default function ReverseEngineeringSectionContent() {
   return (
     <>
       <div className="flex flex-col items-center justify-center space-y-4 text-center">
-        <h2 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
+        <h3 className="font-headline text-3xl font-bold tracking-tighter sm:text-4xl">
           Reverse Engineering Solutions
-        </h2>
+        </h3>
         <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
           From physical object to digital design. We provide comprehensive reverse engineering services to replicate, analyze, and improve existing components.
         </p>

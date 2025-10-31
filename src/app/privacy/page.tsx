@@ -1,5 +1,12 @@
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Privacy Policy | DesignFix",
+  description: "Read the Privacy Policy for DesignFix to understand how we collect, use, and protect your data when you use our CAD automation services.",
+};
+
 
 export default function PrivacyPage() {
   return (
