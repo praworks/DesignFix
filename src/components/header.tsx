@@ -10,10 +10,12 @@ import { ThemeToggle } from "./theme-toggle";
 export default function Header() {
   const navLinks = [
     { name: "Solutions", href: "#solutions" },
+    { name: "Projects", href: "/projects" },
     { name: "Contact", href: "#contact" },
   ];
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, href: string) => {
+    if (!href.startsWith("#")) return;
     e.preventDefault();
     const targetId = href.replace(/.*#/, "");
     const elem = document.getElementById(targetId);
