@@ -5,7 +5,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
-import { FileText } from 'lucide-react';
+import { FileText, Video } from 'lucide-react';
 
 export const metadata: Metadata = {
   title: "Projects | DesignFix",
@@ -41,7 +41,8 @@ const projects = [
         files: [
             {
                 url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/CAM/CAM%20TYPE%201%20%26%202-794rgLo0rcgWumoTITy4SJDr6mAf1M.pdf",
-                name: "CAM Types 1 & 2 Technical Drawing"
+                name: "CAM Types 1 & 2 Technical Drawing",
+                icon: FileText,
             }
         ]
     },
@@ -63,7 +64,41 @@ const projects = [
         files: [
             {
                 url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Drive%20sprockets/Drive%20sprockets-RbDn3NMo1EjC9LzlpYy2wS13LvXaNP.pdf",
-                name: "Drive Sprockets Technical Drawing"
+                name: "Drive Sprockets Technical Drawing",
+                icon: FileText,
+            }
+        ]
+    },
+    {
+        name: "Guide",
+        description: "A guide mechanism with multiple views, a video, and technical drawing.",
+        images: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-1-2oQZAaFvDOjMV2IqsuwDez2ly34VIT.jpg",
+                alt: "Guide View 1",
+                hint: "guide mechanism",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-2-dqvH8Nsay3pZ8WxzI0Voutb9bwORWX.jpg",
+                alt: "Guide View 2",
+                hint: "guide mechanism side view",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-hi1oEAjoYfaG9TcibK1co4jmBnPcfE.png",
+                alt: "Guide Technical Drawing",
+                hint: "guide mechanism drawing",
+            }
+        ],
+        files: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-rEqrM5lxReAtkwRJjx2VUzbB0zBErh.pdf",
+                name: "Guide Technical Drawing PDF",
+                icon: FileText,
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-eDh22iT1ScKvrnXdXnxHRy4MbE5iuY.mp4",
+                name: "Guide Mechanism Video",
+                icon: Video,
             }
         ]
     }
@@ -112,7 +147,7 @@ export default function ProjectsPage() {
                                 {project.files.map((file, index) => (
                                     <Link key={index} href={file.url} target="_blank" rel="noopener noreferrer">
                                         <Button variant="outline" className="w-full justify-start">
-                                            <FileText className="mr-2 h-4 w-4" />
+                                            <file.icon className="mr-2 h-4 w-4" />
                                             {file.name}
                                         </Button>
                                     </Link>
