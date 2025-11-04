@@ -132,7 +132,7 @@ export default function ContactSection() {
                     </Form>
                      <div className="mt-8 space-y-2 text-center text-sm text-muted-foreground">
                         <p><strong>Or reach out directly:</strong></p>
-                        <p><strong>Email:</strong> sug.prashanth@gmail.com</p>
+                        <p><strong>Email:</strong> CAD@designfix.systems</p>
                         <p><strong>WhatsApp:</strong> +94777816896</p>
                     </div>
                 </CardContent>
