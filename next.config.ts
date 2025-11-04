@@ -285,6 +285,12 @@ const nextConfig: NextConfig = {
         hostname: 'img.youtube.com',
         port: '',
         pathname: '/**',
+      },
+      {
+        protocol: 'https',
+        hostname: '*.public.blob.vercel-storage.com',
+        port: '',
+        pathname: '/**',
       }
     ],
   },
