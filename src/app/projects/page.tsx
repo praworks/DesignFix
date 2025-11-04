@@ -149,6 +149,29 @@ const projects = [
                 icon: FileText,
             }
         ]
+    },
+    {
+        name: "Sheaves",
+        description: "A detailed look at sheaves, complete with 3D models and technical drawings.",
+        images: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Sheaves/Sheaves%20750%20x%2022.4-iCcbBHiF1CSOwiCO21sJcFtRcZWtFU.jpg",
+                alt: "Sheave 3D Model",
+                hint: "sheave 3d model",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Sheaves/Sheaves%20750%20x%2022.4-YI4DTbVS7KjzsLqQP1GM0GVtIi5iFG.png",
+                alt: "Sheave Technical Drawing",
+                hint: "sheave drawing"
+            }
+        ],
+        files: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Sheaves/Sheaves%20750%20x%2022.4-DDqZe6fKBJz4ceFTjXEeKFZjBPUAd3.pdf",
+                name: "Sheaves Technical Drawing",
+                icon: FileText,
+            }
+        ]
     }
 ]
 
