@@ -11,7 +11,6 @@ export default function Header() {
   const navLinks = [
     { name: "Solutions", href: "#solutions" },
     { name: "Projects", href: "/projects" },
-    { name: "Contact", href: "#contact" },
   ];
 
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>, href: string) => {
@@ -52,12 +51,6 @@ export default function Header() {
                 {link.name}
               </Link>
             ))}
-             <Link
-                href="/upload"
-                className="transition-colors hover:text-foreground/80 text-foreground/60"
-              >
-                Upload
-              </Link>
           </nav>
         </div>
         <Sheet>
@@ -94,14 +87,6 @@ export default function Header() {
                     className="text-lg font-medium text-foreground/80 hover:text-foreground"
                   >
                     About me
-                  </Link>
-                </SheetClose>
-                <SheetClose asChild>
-                  <Link
-                    href="/upload"
-                    className="text-lg font-medium text-foreground/80 hover:text-foreground"
-                  >
-                    Upload
                   </Link>
                 </SheetClose>
             </div>

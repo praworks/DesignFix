@@ -3,7 +3,6 @@ import HeroSection from "@/components/sections/hero";
 import WhyAutomateSection from "@/components/sections/why-automate";
 import PortfolioSection from "@/components/sections/portfolio";
 import TechStackSection from "@/components/sections/tech-stack";
-import ContactSection from "@/components/sections/contact";
 import Footer from "@/components/footer";
 import WhatIsDesignAutomationSection from "@/components/sections/what-is-design-automation";
 import ServicesSection from "@/components/sections/services";
@@ -20,7 +19,6 @@ export default function GitPage() {
         <ServicesSection />
         <PortfolioSection />
         <TechStackSection />
-        <ContactSection />
         <CtaSection />
       </main>
       <Footer />

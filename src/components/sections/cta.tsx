@@ -12,7 +12,7 @@ export default function CtaSection() {
           <p className="max-w-[600px] text-primary-foreground/80 md:text-lg">
             Ready to transform your design process? Get in touch for a free consultation and see how automation can drive your success.
           </p>
-          <Link href="#contact">
+          <Link href="#hero">
             <Button size="lg" variant="secondary">
               Request a Free Demo
             </Button>

@@ -34,7 +34,7 @@ export default function HeroSection() {
                   </div>
                 </DialogContent>
               </Dialog>
-              <Link href="#contact">
+              <Link href="#cta">
                 <Button size="lg" variant="secondary">
                   Request a Free Demo
                 </Button>
