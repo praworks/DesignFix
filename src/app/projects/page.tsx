@@ -44,6 +44,28 @@ const projects = [
                 name: "CAM Types 1 & 2 Technical Drawing"
             }
         ]
+    },
+    {
+        name: "Drive sprockets",
+        description: "An example of drive sprockets with detailed schematics.",
+        images: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Drive%20sprockets/Drive%20sprockets-09c0g6iK0RCmxGvlL3gBK5KvNexJyO.jpg",
+                alt: "Drive Sprocket 1",
+                hint: "drive sprocket",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Drive%20sprockets/Drive%20sprockets-pX2X6yTBC2jqHDYEQ7yWuQZP24lErD.PNG",
+                alt: "Drive Sprocket 2",
+                hint: "drive sprocket technical drawing"
+            }
+        ],
+        files: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Drive%20sprockets/Drive%20sprockets-RbDn3NMo1EjC9LzlpYy2wS13LvXaNP.pdf",
+                name: "Drive Sprockets Technical Drawing"
+            }
+        ]
     }
 ]
 
