@@ -172,6 +172,39 @@ const projects = [
                 icon: FileText,
             }
         ]
+    },
+    {
+        name: "Spreader Twist Lock Assembly",
+        description: "Assembly views and technical drawings for a spreader twist lock mechanism.",
+        images: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Twistlock/Spreader%20Twist%20Lock%20AS-1-iSh33lMgNFcMdJFMEe9DOghQBBe1qV.jpg",
+                alt: "Spreader Twist Lock Assembly View 1",
+                hint: "spreader twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Twistlock/Spreader%20Twist%20Lock%20AS-2-3V6MCToMiXFW8isbUnfLKKIo9uRGBp.jpg",
+                alt: "Spreader Twist Lock Assembly View 2",
+                hint: "spreader twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Twistlock/Spreader%20Twist%20Lock%20AS-3-dbIfZmOXZbPHEzNAJf4jmTjsNJmzcV.jpg",
+                alt: "Spreader Twist Lock Assembly View 3",
+                hint: "spreader twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Twistlock/Spreader%20Twist%20Lock%20AS-LV3eSgO9TmJVEyarPoCZ2fP76E7eRZ.PNG",
+                alt: "Spreader Twist Lock Assembly Drawing",
+                hint: "spreader twist lock drawing",
+            }
+        ],
+        files: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Twistlock/Spreader%20Twist%20Lock%20AS-PzH4dwue5Nq1Em11iL1E74dcIjpM6U.pdf",
+                name: "Spreader Twist Lock Assembly PDF",
+                icon: FileText,
+            }
+        ]
     }
 ]
 
