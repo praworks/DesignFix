@@ -101,6 +101,54 @@ const projects = [
                 icon: Video,
             }
         ]
+    },
+    {
+        name: "Twist Lock",
+        description: "A detailed look at a RAM spreader twist lock mechanism, including multiple 3D views and technical documentation.",
+        images: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-1-TB0QcxfqZK0pOrss0YSeookHKhUyQM.jpg",
+                alt: "Twist Lock View 1",
+                hint: "twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-3-1hBQIY33KvmeBSW0n5lBjj5jpTpV6U.jpg",
+                alt: "Twist Lock View 2",
+                hint: "twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-4-gVIEBy5wcGTU8ERCKluUBHLcya6nZm.jpg",
+                alt: "Twist Lock View 3",
+                hint: "twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-vMt1kFOMYTaq33BfomciLKe8SC3Z5i.jpeg",
+                alt: "Twist Lock View 4",
+                hint: "twist lock",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK%20SC1-C1urbub7ae95e4FMvUUuQhMtgZ1Oh2.JPG",
+                alt: "Twist Lock SC1",
+                hint: "twist lock mechanism",
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK%20SC2-1Cet0hRVFsAvwTsA33SHH0ECrgVDSU.JPG",
+                alt: "Twist Lock SC2",
+                hint: "twist lock mechanism",
+            }
+        ],
+        files: [
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-2-NFiOpi8pIf8t81JRn6lV8724GLPvzl.pdf",
+                name: "Twist Lock Technical Drawing 1",
+                icon: FileText,
+            },
+            {
+                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-jqDykjTkdgR2zW9cdHgTDmnlCLbdSk.pdf",
+                name: "Twist Lock Technical Drawing 2",
+                icon: FileText,
+            }
+        ]
     }
 ]
 
