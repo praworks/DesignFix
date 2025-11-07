@@ -1,6 +1,8 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Image from "next/image";
-import { ScanLine, Ruler, HardHat } from "lucide-react";
+import { ScanLine, Ruler, HardHat, ArrowRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 const solutions = [
   {
@@ -60,6 +62,13 @@ export default function ReverseEngineeringSectionContent() {
             </CardContent>
           </Card>
         ))}
+      </div>
+      <div className="mt-12 text-center">
+        <Link href="/projects">
+          <Button variant="outline">
+            View Past Projects <ArrowRight className="ml-2 h-4 w-4" />
+          </Button>
+        </Link>
       </div>
     </>
   );
