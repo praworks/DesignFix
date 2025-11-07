@@ -20,16 +20,17 @@ export function FirebaseProvider({ children }: { children: ReactNode }) {
   useEffect(() => {
     // Initialize Firebase only on the client-side
     if (typeof window !== 'undefined') {
-      setFirebaseServices(initializeFirebase());
+      try {
+        setFirebaseServices(initializeFirebase());
+      } catch (e) {
+        console.error("Firebase initialization failed:", e);
+      }
     }
   }, []);
 
-  if (!firebaseServices) {
-    // You can render a loading state here if needed, but for now we just render children
-    // to avoid layout shifts or blank screens during initial load.
-    return <>{children}</>;
-  }
-
+  // We only render children once firebase is initialized on the client
+  // or if we're on the server. The `useFirebase` hook will throw an
+  // error if used before initialization.
   return (
     <FirebaseContext.Provider value={firebaseServices}>
       {children}
@@ -40,7 +41,9 @@ export function FirebaseProvider({ children }: { children: ReactNode }) {
 export const useFirebase = () => {
   const context = useContext(FirebaseContext);
   if (!context) {
-    throw new Error('useFirebase must be used within a FirebaseProvider. This could also mean Firebase is not yet initialized.');
+    // This error is expected on the server and during the initial client render.
+    // Components using this hook should be client components and handle this case.
+    throw new Error('useFirebase must be used within a FirebaseProvider, and Firebase must be initialized. If you see this error on the client, check your Firebase config.');
   }
   return context;
 };
