@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 
 export default function CtaSection() {
   return (
@@ -12,11 +12,31 @@ export default function CtaSection() {
           <p className="max-w-[600px] text-primary-foreground/80 md:text-lg">
             Ready to transform your design process? Get in touch for a free consultation and see how automation can drive your success.
           </p>
-          <Link href="#hero">
-            <Button size="lg" variant="secondary">
-              Request a Free Demo
-            </Button>
-          </Link>
+          <Dialog>
+            <DialogTrigger asChild>
+              <Button size="lg" variant="secondary">Request a Free Demo</Button>
+            </DialogTrigger>
+            <DialogContent>
+              <DialogHeader>
+                <DialogTitle>Request a Free Demo</DialogTitle>
+                <DialogDescription>
+                  Contact us for a free demonstration.
+                </DialogDescription>
+              </DialogHeader>
+              <div className="flex flex-col gap-2">
+                <p>
+                  <strong>Email:</strong>{" "}
+                  <a href="mailto:CAD@designfix.systems">
+                    CAD@designfix.systems
+                  </a>
+                </p>
+                <p>
+                  <strong>Phone:</strong>{" "}
+                  <a href="tel:+94777816896">+94 77 781 6896</a>
+                </p>
+              </div>
+            </DialogContent>
+          </Dialog>
         </div>
       </div>
     </section>
