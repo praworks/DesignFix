@@ -26,10 +26,33 @@ const fontCursive = Dancing_Script({
 })
 
 
+const title = "DesignFix: CAD Automation & Design Engineering Solutions";
+const description = "Expert CAD automation, design engineering, and reverse engineering services. We specialize in SolidWorks, DriveWorks, and custom .NET solutions to accelerate your product development lifecycle.";
+
 export const metadata: Metadata = {
-  title: 'DesignFix - Automating Design. Accelerating Innovation.',
-  description: 'Custom CAD Automation and Design Solutions for Next-Gen Product Development',
+  title: title,
+  description: description,
   robots: 'index, follow',
+  openGraph: {
+    title: title,
+    description: description,
+    type: 'website',
+    url: 'https://design-fix.vercel.app/', // Replace with your actual domain
+    images: [
+      {
+        url: 'https://design-fix.vercel.app/og-image.png', // Replace with a link to a preview image
+        width: 1200,
+        height: 630,
+        alt: 'DesignFix - CAD Automation Solutions',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: title,
+    description: description,
+    images: ['https://design-fix.vercel.app/og-image.png'], // Replace with a link to a preview image
+  },
 };
 
 export default function RootLayout({
