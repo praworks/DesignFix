@@ -1,3 +1,4 @@
+
 import Footer from "@/components/footer";
 import Header from "@/components/header";
 import { Button } from "@/components/ui/button";
@@ -38,13 +39,7 @@ const projects = [
                 hint: "phone 3d scan"
             }
         ],
-        files: [
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/CAM/CAM%20TYPE%201%20%26%202-794rgLo0rcgWumoTITy4SJDr6mAf1M.pdf",
-                name: "CAM Types 1 & 2 Technical Drawing",
-                icon: FileText,
-            }
-        ]
+        files: []
     },
     {
         name: "Drive sprockets",
@@ -61,13 +56,7 @@ const projects = [
                 hint: "drive sprocket technical drawing"
             }
         ],
-        files: [
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Drive%20sprockets/Drive%20sprockets-RbDn3NMo1EjC9LzlpYy2wS13LvXaNP.pdf",
-                name: "Drive Sprockets Technical Drawing",
-                icon: FileText,
-            }
-        ]
+        files: []
     },
     {
         name: "Guide",
@@ -90,11 +79,6 @@ const projects = [
             }
         ],
         files: [
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-rEqrM5lxReAtkwRJjx2VUzbB0zBErh.pdf",
-                name: "Guide Technical Drawing PDF",
-                icon: FileText,
-            },
             {
                 url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Guide/1402104602-eDh22iT1ScKvrnXdXnxHRy4MbE5iuY.mp4",
                 name: "Guide Mechanism Video",
@@ -137,18 +121,7 @@ const projects = [
                 hint: "twist lock mechanism",
             }
         ],
-        files: [
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-2-NFiOpi8pIf8t81JRn6lV8724GLPvzl.pdf",
-                name: "Twist Lock Technical Drawing 1",
-                icon: FileText,
-            },
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/RAM%20SPREADER%20TWIST%20LOCK/RAM%20SPREADER%20TWIST%20LOCK-jqDykjTkdgR2zW9cdHgTDmnlCLbdSk.pdf",
-                name: "Twist Lock Technical Drawing 2",
-                icon: FileText,
-            }
-        ]
+        files: []
     },
     {
         name: "Sheaves",
@@ -165,13 +138,7 @@ const projects = [
                 hint: "sheave drawing"
             }
         ],
-        files: [
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Sheaves/Sheaves%20750%20x%2022.4-DDqZe6fKBJz4ceFTjXEeKFZjBPUAd3.pdf",
-                name: "Sheaves Technical Drawing",
-                icon: FileText,
-            }
-        ]
+        files: []
     },
     {
         name: "Spreader Twist Lock Assembly",
@@ -198,13 +165,7 @@ const projects = [
                 hint: "spreader twist lock drawing",
             }
         ],
-        files: [
-            {
-                url: "https://ke4jydmc2wppgjtt.public.blob.vercel-storage.com/Portfolio-website/Twistlock/Spreader%20Twist%20Lock%20AS-PzH4dwue5Nq1Em11iL1E74dcIjpM6U.pdf",
-                name: "Spreader Twist Lock Assembly PDF",
-                icon: FileText,
-            }
-        ]
+        files: []
     }
 ]
 
