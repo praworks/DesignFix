@@ -25,7 +25,8 @@ export function FirebaseProvider({ children }: { children: ReactNode }) {
   }, []);
 
   if (!firebaseServices) {
-    // You can render a loading state here if needed
+    // You can render a loading state here if needed, but for now we just render children
+    // to avoid layout shifts or blank screens during initial load.
     return <>{children}</>;
   }
 
