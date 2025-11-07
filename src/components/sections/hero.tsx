@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
 import Link from "next/link";
 
 export default function HeroSection() {
@@ -22,6 +22,7 @@ export default function HeroSection() {
                   <Button size="lg" variant="secondary">Watch How It Works</Button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[625px] p-0">
+                   <DialogTitle className="sr-only">Watch How It Works Video</DialogTitle>
                   <div className="aspect-video">
                     <iframe
                       src="https://www.youtube.com/embed/KD336dxw4-A"

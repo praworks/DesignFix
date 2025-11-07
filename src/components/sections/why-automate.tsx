@@ -1,6 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card";
 import { Check, ArrowRight } from "lucide-react";
-import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogTrigger, DialogContent, DialogTitle } from "@/components/ui/dialog";
 import Image from "next/image";
 
 const benefits = [
@@ -116,6 +116,7 @@ export default function WhyAutomateSection() {
                     </div>
                 </DialogTrigger>
                 <DialogContent className="max-w-3xl p-0">
+                  <DialogTitle className="sr-only">Why CAD Automation Matters Video</DialogTitle>
                   <div className="aspect-video">
                     <iframe
                       src="https://www.youtube.com/embed/gjjq25XW_Ro?start=8&autoplay=1"
