@@ -41,18 +41,23 @@ export default function HeroSection() {
               </Link>
             </div>
           </div>
-          <div className="w-full max-w-4xl rounded-xl shadow-lg border bg-background overflow-hidden">
-            <div className="aspect-video">
-                <iframe
-                    src="https://www.youtube.com/embed/KD336dxw4-A"
-                    title="CAD Automation Visual"
-                    frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
-                    className="w-full h-full"
-                ></iframe>
+          <figure className="w-full max-w-4xl">
+            <div className="w-full rounded-xl shadow-lg border bg-background overflow-hidden">
+                <div className="aspect-video">
+                    <iframe
+                        src="https://www.youtube.com/embed/KD336dxw4-A"
+                        title="CAD Automation Visual"
+                        frameBorder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
+                        className="w-full h-full"
+                    ></iframe>
+                </div>
             </div>
-          </div>
+             <figcaption className="mt-2 text-sm text-center text-primary-foreground/80">
+                Video credits to <a href="https://www.solidsolutions.co.uk/" target="_blank" rel="noopener noreferrer" className="underline hover:text-primary-foreground">https://www.solidsolutions.co.uk/</a>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </section>
