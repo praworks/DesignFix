@@ -1,6 +1,5 @@
 import { Button } from "@/components/ui/button";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog";
-import Link from "next/link";
 import { AtSign, Phone } from "lucide-react";
 
 export default function HeroSection() {
@@ -23,7 +22,7 @@ export default function HeroSection() {
                   <Button size="lg" variant="secondary">Watch How It Works</Button>
                 </DialogTrigger>
                 <DialogContent className="sm:max-w-[625px] p-0">
-                   <DialogHeader className="sr-only">
+                  <DialogHeader className="sr-only">
                     <DialogTitle>Watch How It Works Video</DialogTitle>
                     <DialogDescription>An embedded video demonstrating CAD automation.</DialogDescription>
                   </DialogHeader>
