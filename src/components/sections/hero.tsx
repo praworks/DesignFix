@@ -24,7 +24,7 @@ export default function HeroSection() {
                 <DialogContent className="sm:max-w-[625px] p-0">
                   <div className="aspect-video">
                     <iframe
-                      src="https://www.youtube.com/embed/S2aC_84AnA4"
+                      src="https://www.youtube.com/embed/KD336dxw4-A"
                       title="Sample Automation Workflow"
                       frameBorder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
